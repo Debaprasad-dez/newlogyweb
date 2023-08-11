@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/newlogyweb/static/css/main.761336d0.css",
+    "main.js": "/newlogyweb/static/js/main.7d916e27.js",
+    "static/js/787.9bb6201f.chunk.js": "/newlogyweb/static/js/787.9bb6201f.chunk.js",
+    "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
+    "static/media/multislidebg1.png": "/newlogyweb/static/media/multislidebg1.f5ea49d4578a21678000.png",
+    "static/media/metric7.svg": "/newlogyweb/static/media/metric7.aaaedca4f1f931d76db0c26a745bc7ff.svg",
+    "static/media/metric6.svg": "/newlogyweb/static/media/metric6.596609f060f09e0b8af178b3e5439a64.svg",
+    "static/media/metric9.svg": "/newlogyweb/static/media/metric9.101816b3626169e77ebdd698ca1f172e.svg",
+    "static/media/metric3.svg": "/newlogyweb/static/media/metric3.2abfc16d194512165754d0cab411bf9e.svg",
+    "static/media/iigp.png": "/newlogyweb/static/media/iigp.c42185ddb17f2e14f231.png",
+    "static/media/BIRAC.png": "/newlogyweb/static/media/BIRAC.ec0b97631575a526d297.png",
+    "static/media/nimr.png": "/newlogyweb/static/media/nimr.8424298bbd08e9edc069.png",
+    "static/media/iitb.png": "/newlogyweb/static/media/iitb.75ba8e1895d71d63b735.png",
+    "static/media/iiith.png": "/newlogyweb/static/media/iiith.e948c83287be772fef05.png",
+    "static/media/metric1.svg": "/newlogyweb/static/media/metric1.ac8e60c55b7edac11e5fd7779161ffa6.svg",
+    "static/media/scaleOfImpact.svg": "/newlogyweb/static/media/scaleOfImpact.4a938db246a6c12e7600fc564c3fd273.svg",
+    "static/media/metric8.svg": "/newlogyweb/static/media/metric8.5715a25db905fce618775293e2e8df64.svg",
+    "static/media/metric2.svg": "/newlogyweb/static/media/metric2.71cf10b41f362e2aac883d77d2713306.svg",
+    "static/media/metric4.svg": "/newlogyweb/static/media/metric4.8b4caeb0330bea7702890803d318a72f.svg",
+    "static/media/metric5.svg": "/newlogyweb/static/media/metric5.595b864761dd51b22506f798aaa946dc.svg",
+    "static/media/eyeicon.svg": "/newlogyweb/static/media/eyeicon.8a74694ee4ef140e3a7d5ac0fb01d9e1.svg",
+    "static/media/oralIcon.svg": "/newlogyweb/static/media/oralIcon.029337a50086aab29908a9e57252b6ea.svg",
+    "index.html": "/newlogyweb/index.html",
+    "static/media/twittericon.svg": "/newlogyweb/static/media/twittericon.a1b84ab43a0a39adcfca31a0c852085a.svg",
+    "static/media/articlestar.svg": "/newlogyweb/static/media/articlestar.24345b9cdddf228abf4a2dc13aeb2887.svg",
+    "static/media/blueSpectrum.svg": "/newlogyweb/static/media/blueSpectrum.94b05b01ffd6666bffb9f44c64d9c6ee.svg",
+    "static/media/linkedinicon.svg": "/newlogyweb/static/media/linkedinicon.d31d5b564b58b10dc6511f602df985ae.svg",
+    "static/media/yticon.svg": "/newlogyweb/static/media/yticon.232c2220c891db0386701c402d2b84c5.svg",
+    "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
+    "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
+    "main.761336d0.css.map": "/newlogyweb/static/css/main.761336d0.css.map",
+    "main.7d916e27.js.map": "/newlogyweb/static/js/main.7d916e27.js.map",
+    "787.9bb6201f.chunk.js.map": "/newlogyweb/static/js/787.9bb6201f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.761336d0.css",
+    "static/js/main.7d916e27.js"
+  ]
+}
