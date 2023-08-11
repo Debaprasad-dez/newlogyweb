@@ -1,15 +1,15 @@
 import "./App.css";
-import Home from "./Components/Home.jsx";
-import Footer from "./Components/Footer.jsx";
-import Navbar from "./Components/Navbar.jsx";
+import Home from "./Components/Home";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Contact from "./Components/Contact.jsx";
+import Contact from "./Components/Contact";
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Route path="/" element={<Home />} />
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

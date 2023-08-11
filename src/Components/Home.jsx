@@ -1,14 +1,14 @@
-import GetTouchFloater from "./GetTouchFloater.jsx";
-import HomeCarousel from "./HomeCarousel.jsx";
-import Tagline from "./Tagline.jsx";
+import GetTouchFloater from "./GetTouchFloater";
+import HomeCarousel from "./HomeCarousel";
+import Tagline from "./Tagline";
 import blueSpectrum from "../Images/blueSpectrum.svg";
-import ImpactScale from "./ImpactScale.jsx";
-import Infinitecarousel from "./InfiniteCarousel.jsx";
-import MultiItem from "./MultiItemCarousel.jsx";
-import Article from "./Articles.jsx";
-import OurServices from "./OurServices.jsx";
-import Partners from "./Partners.jsx";
-import Recentnews from "./Recentnews.jsx";
+import ImpactScale from "./ImpactScale";
+import Infinitecarousel from "./InfiniteCarousel";
+import MultiItem from "./MultiItemCarousel";
+import Article from "./Articles";
+import OurServices from "./OurServices";
+import Partners from "./Partners";
+import Recentnews from "./Recentnews";
 
 function Home() {
   return (
