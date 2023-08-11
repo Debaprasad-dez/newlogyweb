@@ -1,9 +1,9 @@
 import "./App.css";
-import Home from "./Components/Home";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
+import Home from "./Components/Home.jsx";
+import Footer from "./Components/Footer.jsx";
+import Navbar from "./Components/Navbar.jsx";
 import { Routes, Route } from "react-router-dom";
-import Contact from "./Components/Contact";
+import Contact from "./Components/Contact.jsx";
 function App() {
   return (
     <div className="App">
