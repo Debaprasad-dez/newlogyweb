@@ -14,7 +14,7 @@ function Partners() {
       <div className="footertop">
         <div className="container">
           <div className="row">
-            <div className="col-7 text-start">
+            <div className="col-md-7 text-start">
               <p className="p-0 m-0 py-4 display-6">
                 Partners and collaborators who put their faith in us
               </p>
@@ -23,7 +23,7 @@ function Partners() {
         </div>
       </div>
       <div className="partner-list">
-        <div className="row">
+        <div className="row m-0 p-0">
           <div className="col">
             <img src={apacmed} alt="" />
             <img src={BIRAC} alt="" />

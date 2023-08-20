@@ -1,6 +1,6 @@
 function Infinitecarousel() {
   return (
-    <div>
+    <div className="slidecontainer">
       <div class="slider">
         <div class="slide-track">
           <div class="slide">

@@ -13,7 +13,7 @@ function Article() {
           <br />
           <br />
           <div className="row articlerow">
-            <div className="col-7 pe-1">
+            <div className="col-md-7 pe-2">
               <div className="articlebg">
                 <div className="articledarklayer">
                   <a className="btn px-5" href="">
@@ -22,7 +22,7 @@ function Article() {
                 </div>
               </div>
             </div>
-            <div className="col-5">
+            <div className="col-md-5">
               <div className="articleright">
                 <div className="text-end">
                   <img src={articlestar} alt="" />

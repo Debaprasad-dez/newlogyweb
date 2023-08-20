@@ -10,13 +10,13 @@ function Footer() {
       <div className="footertop">
         <div className="container">
           <div className="row">
-            <div className="col-7 text-start">
+            <div className="col-md-7 text-start">
               <p className="p-0 m-0 py-4 display-6">
                 Join the growing number of healthcare providers who trust
                 Logy.AI
               </p>
             </div>
-            <div className="col-5 text-end">
+            <div className="col-md-5 text-end">
               <p className="p-0 m-0 py-4 display-7">
                 Request a demo <img src={reqdemoicon} alt="" />
               </p>
@@ -28,7 +28,7 @@ function Footer() {
         <br />
         <div className="container">
           <div className="row">
-            <div className="col-5 text-white">
+            <div className="col-md-5 text-white">
               <h2>LOGY.AI</h2>
               <br />
               <p className="footerpara">
@@ -46,9 +46,9 @@ function Footer() {
                 <img src={twitter} alt="" />
               </div>
             </div>
-            <div className="col-7">
+            <div className="col-md-7">
               <div className="row">
-                <div className="col-4 hyperlinks">
+                <div className="col-md-4 hyperlinks">
                   <h5 className="text-white">PRODUCTS</h5>
                   <br />
                   <a href="" className="text-decoration-none  mb-3">
@@ -61,7 +61,7 @@ function Footer() {
                     AutoML Platform
                   </a>
                 </div>
-                <div className="col-4 hyperlinks">
+                <div className="col-md-4 hyperlinks">
                   <h5 className="text-white">USEFUL LINKS</h5>
                   <br />
                   <a href="" className="text-decoration-none  mb-3">
@@ -71,7 +71,7 @@ function Footer() {
                     Terms and Conditions / Cancellation Policy
                   </a>
                 </div>
-                <div className="col-4 hyperlinks">
+                <div className="col-md-4 hyperlinks">
                   <h5 className="text-white">CONTACT</h5>
                   <br />
                   <a href="" className="text-decoration-none  mb-3">

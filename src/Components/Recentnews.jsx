@@ -43,7 +43,7 @@ function Recentnews() {
         <div>
           <div className="row">
             {newsArray.map((news) => (
-              <div key={news.id} className="col-3 newsitem p-3">
+              <div key={news.id} className=" col-md-6  newsitem p-3">
                 <div className="bg-lightblue p-1 w-25"></div>
                 <a href="" className="text-decoration-none">
                   <br />

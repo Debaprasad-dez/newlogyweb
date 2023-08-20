@@ -15,29 +15,33 @@ function OurServices() {
           <br />
           <br />
           <div className="row solutionrow">
-            <div className="col-7 pe-1">
+            <div className="col-md-7 pe-1">
               <div className="row solutiondivleft">
-                <div className="col-6">
-                  <div className="bg-lightblue service1">
-                    <img src={eyeicon} alt="" />
+                <div className="col-md-6">
+                  <div>
+                    <div className="bg-lightblue service1">
+                      <img src={eyeicon} alt="" />
+                    </div>
+                    <br />
+                    <span className="btn btngrad px-4" href="">
+                      Eye Screening module
+                    </span>
                   </div>
-                  <br />
-                  <a className="btn btngrad px-4" href="">
-                    Eye Screening module
-                  </a>
                 </div>
-                <div className="col-6">
-                  <div className="bg-lightblue service1">
-                    <img src={oralicon} alt="" />
+                <div className="col-md-6">
+                  <div>
+                    <div className="bg-lightblue service1">
+                      <img src={oralicon} alt="" />
+                    </div>
+                    <br />
+                    <a className="btn btngrad px-4" href="">
+                      Oral Screening module
+                    </a>
                   </div>
-                  <br />
-                  <a className="btn btngrad px-4" href="">
-                    Oral Screening module
-                  </a>
                 </div>
               </div>
             </div>
-            <div className="col-5">
+            <div className="col-md-5">
               <div className="solutionright">
                 <div className="px-5">
                   <p className="">

@@ -14,9 +14,7 @@ import Testimonails from "./Testimonails";
 function Home() {
   return (
     <div className="homeDiv">
-      <div>
-        <HomeCarousel />
-      </div>
+      <HomeCarousel />
       <GetTouchFloater />
       <Tagline text="let good health begin" />
       <img src={blueSpectrum} className="blueSpec" alt="" />
