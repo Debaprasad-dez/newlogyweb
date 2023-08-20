@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.761336d0.css",
-    "main.js": "/newlogyweb/static/js/main.4a5ea250.js",
+    "main.css": "/newlogyweb/static/css/main.e67de434.css",
+    "main.js": "/newlogyweb/static/js/main.9dd99dd7.js",
     "static/js/787.9bb6201f.chunk.js": "/newlogyweb/static/js/787.9bb6201f.chunk.js",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
+    "static/media/testimonialimg.png": "/newlogyweb/static/media/testimonialimg.4a0bbcb7015db2993cdf.png",
     "static/media/multislidebg1.png": "/newlogyweb/static/media/multislidebg1.f5ea49d4578a21678000.png",
     "static/media/metric7.svg": "/newlogyweb/static/media/metric7.aaaedca4f1f931d76db0c26a745bc7ff.svg",
     "static/media/metric6.svg": "/newlogyweb/static/media/metric6.596609f060f09e0b8af178b3e5439a64.svg",
@@ -26,16 +27,19 @@
     "static/media/twittericon.svg": "/newlogyweb/static/media/twittericon.a1b84ab43a0a39adcfca31a0c852085a.svg",
     "static/media/articlestar.svg": "/newlogyweb/static/media/articlestar.24345b9cdddf228abf4a2dc13aeb2887.svg",
     "static/media/blueSpectrum.svg": "/newlogyweb/static/media/blueSpectrum.94b05b01ffd6666bffb9f44c64d9c6ee.svg",
+    "static/media/quoteicon.svg": "/newlogyweb/static/media/quoteicon.e1964cf33347d466913a91b28aad9fee.svg",
     "static/media/linkedinicon.svg": "/newlogyweb/static/media/linkedinicon.d31d5b564b58b10dc6511f602df985ae.svg",
     "static/media/yticon.svg": "/newlogyweb/static/media/yticon.232c2220c891db0386701c402d2b84c5.svg",
+    "static/media/leftgo.svg": "/newlogyweb/static/media/leftgo.a26c6202305563e141ce7a66fff1b525.svg",
+    "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.761336d0.css.map": "/newlogyweb/static/css/main.761336d0.css.map",
-    "main.4a5ea250.js.map": "/newlogyweb/static/js/main.4a5ea250.js.map",
+    "main.e67de434.css.map": "/newlogyweb/static/css/main.e67de434.css.map",
+    "main.9dd99dd7.js.map": "/newlogyweb/static/js/main.9dd99dd7.js.map",
     "787.9bb6201f.chunk.js.map": "/newlogyweb/static/js/787.9bb6201f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.761336d0.css",
-    "static/js/main.4a5ea250.js"
+    "static/css/main.e67de434.css",
+    "static/js/main.9dd99dd7.js"
   ]
 }
