@@ -149,6 +149,13 @@ body{
     background-size: cover;
     background-position: center;
 }
+#carouselImg11{
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient(135deg, rgba(62, 163, 251, 0.10) 0%, rgba(255, 0, 245, 0.10) 100%);
+    background-size: cover;
+    background-position: center;
+}
 #carouselImg2{
     width: 100vw;
     height: 95vh;
@@ -156,10 +163,24 @@ body{
     background-size: cover;
     background-position: center;
 }
+#carouselImg22{
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient(135deg, rgba(62, 163, 251, 0.10) 0%, rgba(255, 0, 245, 0.10) 100%);  
+    background-size: cover;
+    background-position: center;
+}
 #carouselImg3{
     width: 100vw;
     height: 95vh;
     background-image: url(https://plus.unsplash.com/premium_photo-1663100521684-ddd46459b3b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lkZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#carouselImg33{
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient(135deg, rgba(62, 163, 251, 0.10) 0%, rgba(255, 0, 245, 0.10) 100%);
     background-size: cover;
     background-position: center;
 }
@@ -408,4 +429,59 @@ background: #ffffff;}
 .news .bg-lightblue{
     background: rgba(153, 205, 255, 0.20);
     color: #0D2E4B;
+}
+.directionguiderleft{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 15%; */
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    transition: opacity .15s ease;
+}
+.directionguiderright{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 15%; */
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    transition: opacity .15s ease;
+}
+#testimonial{
+    height: 60vh;
+    background: white
+}
+.testi-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.testi-img{
+    background-image: url(./Images/testimonialimg.png);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    width: 45vh;
+    border: 16px solid #F6F7FE;
+    border-radius: 10%;
+}
+.quoteicon{
+    width: 60px;
 }

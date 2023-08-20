@@ -9,6 +9,7 @@ import Article from "./Articles";
 import OurServices from "./OurServices";
 import Partners from "./Partners";
 import Recentnews from "./Recentnews";
+import Testimonails from "./Testimonails";
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
       <OurServices />
       <Partners />
       <Recentnews />
+      <Testimonails />
     </div>
   );
 }
