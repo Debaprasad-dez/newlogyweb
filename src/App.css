@@ -216,7 +216,7 @@ body{
     z-index: 3;
     width: fit-content;
     border-radius: 32px;
-    border: solid 12px #82c5ff;
+    border: solid 12px #bbddfa;
     max-width: 100%;
     padding: 30px;
     background: #101D28;
@@ -225,7 +225,7 @@ body{
 .bg-grad{
     background: linear-gradient(-45deg, #00c3ff70, #ebf2f870, #52e5f070);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 5s ease infinite;
 }
 @keyframes gradient {
 	0% {
