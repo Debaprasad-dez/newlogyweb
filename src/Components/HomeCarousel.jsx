@@ -2,20 +2,18 @@ function HomeCarousel() {
   return (
     <div
       id="carouselExampleFade"
-      className="carousel slide carousel-fade"
+      className="carousel slide carousel-slide bg-white"
       data-bs-ride="carousel"
     >
-      <div className="carousel-inner">
+      <div className="carousel-inner bg-grad">
         <div
           className="carousel-item  active"
           id="carouselImg1"
           data-bs-interval="4000"
         >
           <div className="row">
-            <div className="col-1">
-              <div className="leftline"></div>
-            </div>
-            <div className="col-8">
+            <div className="col-md-2"></div>
+            <div className="col-md-8">
               <div className="containerx">
                 <div className="carText">
                   <div className="textBox">
@@ -33,11 +31,8 @@ function HomeCarousel() {
                 </div>
               </div>
             </div>
-            <div className="col-3">
-              <div className="rightline"></div>
-            </div>
+            <div className="col-md-2"></div>
           </div>
-          <div className="darkLayer"></div>
         </div>
         <div
           className="carousel-item"
@@ -45,10 +40,8 @@ function HomeCarousel() {
           data-bs-interval="4000"
         >
           <div className="row">
-            <div className="col-1">
-              <div className="leftline"></div>
-            </div>
-            <div className="col-8">
+            <div className="col-md-2"></div>
+            <div className="col-md-8">
               <div className="containerx">
                 <div className="carText">
                   <div className="textBox">
@@ -66,11 +59,8 @@ function HomeCarousel() {
                 </div>
               </div>
             </div>
-            <div className="col-3">
-              <div className="rightline"></div>
-            </div>
+            <div className="col-md-2"></div>
           </div>
-          <div className="darkLayer"></div>
         </div>
         <div
           className="carousel-item "
@@ -78,10 +68,8 @@ function HomeCarousel() {
           data-bs-interval="4000"
         >
           <div className="row">
-            <div className="col-1">
-              <div className="leftline"></div>
-            </div>
-            <div className="col-8">
+            <div className="col-md-2"></div>
+            <div className="col-md-8">
               <div className="containerx">
                 <div className="carText">
                   <div className="textBox">
@@ -99,12 +87,8 @@ function HomeCarousel() {
                 </div>
               </div>
             </div>
-            <div className="col-3">
-              <div className="rightline"></div>
-            </div>
+            <div className="col-md-2"></div>
           </div>
-
-          <div className="darkLayer"></div>
         </div>
       </div>
       <button

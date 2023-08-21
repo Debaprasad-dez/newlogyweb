@@ -35,7 +35,7 @@ function Recentnews() {
         <br />
         <br />
         <a className="px-4 py-2 bg-lightblue  text-decoration-none rounded-pill">
-          Our Solutions
+          Recent news
         </a>
         <br />
         <br />

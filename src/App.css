@@ -3,6 +3,7 @@
     padding: 20px;
     width: 100vw;
     box-shadow: 0 1px 10px #428bcc;
+    z-index: 1000;
 }
 *{
     padding: 0;
@@ -120,7 +121,7 @@ body{
     bottom: 15vh;
     padding: 8px;
     display: flex;
-    z-index: 9999;
+    z-index: 999;
 }
 .touchtext{
     line-height: 36px;
@@ -168,7 +169,6 @@ body{
 #carouselImg1{
     width: 100vw;
     height: 95vh;
-    background-image: url(https://images.unsplash.com/photo-1601388352547-2802c6f32eb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdpZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
 }
@@ -182,7 +182,6 @@ body{
 #carouselImg2{
     width: 100vw;
     height: 95vh;
-    background-image: url(https://images.unsplash.com/photo-1612466147934-4a7a64a3abe2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdpZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
 }
@@ -196,7 +195,6 @@ body{
 #carouselImg3{
     width: 100vw;
     height: 95vh;
-    background-image: url(https://plus.unsplash.com/premium_photo-1663100521684-ddd46459b3b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lkZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
 }
@@ -211,27 +209,47 @@ body{
     position: static;
     width: 100vw;
     height: 95vh;
-    background: #000000d7;
+    background: #e4e4e4d7;
     z-index: 1;
 }
 .textBox{
     z-index: 3;
     width: fit-content;
+    border-radius: 32px;
+    border: solid 12px #82c5ff;
     max-width: 100%;
-    padding: 20px;
-    background: #000000af;
-    font-size: 42px;
+    padding: 30px;
+    background: #101D28;
+    font-size: 48px;
+}
+.bg-grad{
+    background: linear-gradient(-45deg, #00c3ff70, #ebf2f870, #52e5f070);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .carText{
     max-width: 67.8%;
-    top: 50%;
+    top: 55%;
     position: absolute;
     transform: translateY(-50%);
 }
 .undertext{
-    color: white;
+    color: rgb(68, 68, 68);
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 .leftline{
     background: wheat;
@@ -517,13 +535,26 @@ background: #ffffff;}
         width: fit-content;
         max-width: 100%;
         padding: 20px;
-        background: #000000af;
-        font-size: 22px;
+        font-size: 32px;
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
     .undertext{
-        color: white;
+        color: #101D28;
+        font-weight: 500;
         margin-top: 20px;
-        font-size: 14px;
+        font-size: 22px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .getInTouch{
+        background: #101D28;
+        position: absolute;
+        right: 20px;
+        bottom: 8vh;
+        padding: 8px;
+        display: flex;
+        z-index: 999;
     }
     .scaleBlock{
         padding: 10px;
@@ -580,4 +611,12 @@ background: #ffffff;}
     .rightContact{
         margin-top: 16px;
     }
+    .carText{
+        max-width: 100%;
+        margin-right: 16px;
+        margin-left: 16px;
+        top: 15%;
+        transform: translateY(-5%);
+    }
+    
 }
