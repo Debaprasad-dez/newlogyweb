@@ -536,14 +536,14 @@ background: #ffffff;}
         max-width: 100%;
         padding: 20px;
         font-size: 32px;
-        padding-top: 90px;
-        padding-bottom: 90px;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
     }
     .undertext{
         color: #101D28;
         font-weight: 500;
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 16px;
         padding-left: 16px;
         padding-right: 16px;
     }
