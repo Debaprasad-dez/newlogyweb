@@ -535,7 +535,7 @@ background: #ffffff;}
         width: fit-content;
         max-width: 100%;
         padding: 20px;
-        font-size: 32px;
+        font-size: 28px;
         padding-top: 7vh;
         padding-bottom: 7vh;
     }
@@ -612,7 +612,7 @@ background: #ffffff;}
         max-width: 100%;
         margin-right: 16px;
         margin-left: 16px;
-        top: 20%;
+        top: 15%;
         transform: translateY(-5%);
     }
     
