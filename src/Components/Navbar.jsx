@@ -1,4 +1,7 @@
+import { NavLink, useLocation } from "react-router-dom";
+
 function Navbar() {
+  const path = useLocation().pathname;
   return (
     <div className="navbg fixed-top">
       <div className="navrow container">
@@ -13,19 +16,34 @@ function Navbar() {
           </button>
           <ul>
             <li>
-              <a href="">Home</a>
+              <NavLink
+                className={`${
+                  path == "/" ? "bg-lightx" : ""
+                } px-4 py-2 rounded-pill`}
+                href=""
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="">Product</a>
+              <a className=" px-4 py-1" href="">
+                Product
+              </a>
             </li>
             <li>
-              <a href="">Technology</a>
+              <a className=" px-4 py-1" href="">
+                Technology
+              </a>
             </li>
             <li>
-              <a href="">Service</a>
+              <a className=" px-4 py-1" href="">
+                Service
+              </a>
             </li>
             <li>
-              <a href="">About us</a>
+              <a className=" px-4 py-1" href="">
+                About us
+              </a>
             </li>
           </ul>
         </div>

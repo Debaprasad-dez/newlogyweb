@@ -2,12 +2,12 @@ function HomeCarousel() {
   return (
     <div
       id="carouselExampleFade"
-      class="carousel slide carousel-fade"
+      className="carousel slide carousel-fade"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
+      <div className="carousel-inner">
         <div
-          class="carousel-item  active"
+          className="carousel-item  active"
           id="carouselImg1"
           data-bs-interval="4000"
         >
@@ -39,7 +39,11 @@ function HomeCarousel() {
           </div>
           <div className="darkLayer"></div>
         </div>
-        <div class="carousel-item" id="carouselImg2" data-bs-interval="4000">
+        <div
+          className="carousel-item"
+          id="carouselImg2"
+          data-bs-interval="4000"
+        >
           <div className="row">
             <div className="col-1">
               <div className="leftline"></div>
@@ -68,7 +72,11 @@ function HomeCarousel() {
           </div>
           <div className="darkLayer"></div>
         </div>
-        <div class="carousel-item " id="carouselImg3" data-bs-interval="4000">
+        <div
+          className="carousel-item "
+          id="carouselImg3"
+          data-bs-interval="4000"
+        >
           <div className="row">
             <div className="col-1">
               <div className="leftline"></div>
@@ -100,28 +108,28 @@ function HomeCarousel() {
         </div>
       </div>
       <button
-        class="carousel-control-prev opacity-0"
+        className="carousel-control-prev opacity-0"
         type="button"
         data-bs-target="#carouselExampleFade"
         data-bs-slide="prev"
       >
         <span
-          class="carousel-control-prev-icon invisible"
+          className="carousel-control-prev-icon invisible"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next opacity-0"
+        className="carousel-control-next opacity-0"
         type="button"
         data-bs-target="#carouselExampleFade"
         data-bs-slide="next"
       >
         <span
-          class="carousel-control-next-icon invisible"
+          className="carousel-control-next-icon invisible"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Next</span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );

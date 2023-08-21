@@ -1,7 +1,8 @@
 .navbg{
-    background: #00000091;
+    background: #ffffff;
     padding: 20px;
     width: 100vw;
+    box-shadow: 0 1px 10px #428bcc;
 }
 *{
     padding: 0;
@@ -30,9 +31,12 @@ body{
     float: left;
 }
 .navblock2 li a{
-    padding: 20px;
+    
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
+}
+.bg-lightx{
+    background: #428ccc2a;
 }
 .homeDiv{
     background: #181818;
@@ -82,16 +86,35 @@ body{
 }
 .contactDiv{
     width: 100%;
-    background: #003cff7e;
-    text-align: center;
-    padding: 300px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    height: fit-content;
+}
+.entdet{
+    background: #f0f4fc;
+    border: solid 2px #edf4ff;
+}
+.btnx{
+    background: #428bcc;
+}
+.leftContact{
+    background: #f0f4fc;
+    height: 100%;
+}
+.leftContact .touchbox{
+    border-bottom: solid 4px #428bcc;
+    border-top: solid 4px #428bcc;
+}
+.rightContact{
+    border: solid 2px #edf4ff;
+    height: 100%;
 }
 .brandName{
-    background: #0000009c;
+    background: #101D28;
     width: auto;
 }
 .getInTouch{
-    background: #00000094;
+    background: #101D28;
     position: absolute;
     right: 20px;
     bottom: 15vh;
@@ -130,14 +153,14 @@ body{
     .togglebutton{
         display: block;
         position: absolute;
-        background: #000;
+        background: #101D28;
         padding: 6px;
         padding-left: 20px;
         padding-right: 20px;
         right: 0;
         top: 17%;
         border: none;
-        color: wheat;
+        color: rgb(255, 255, 255);
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
     }
@@ -547,5 +570,14 @@ background: #ffffff;}
     }
     #carouselImg11, #carouselImg22,#carouselImg33{
         height: 70vh;
+    }
+    .contactDiv{
+        padding-top: 100px;
+    }
+    .norightpadding{
+        padding-right: 0 !important;
+    }
+    .rightContact{
+        margin-top: 16px;
     }
 }
