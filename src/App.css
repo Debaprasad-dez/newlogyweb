@@ -548,13 +548,10 @@ background: #ffffff;}
         padding-right: 16px;
     }
     .getInTouch{
-        background: #101D28;
-        position: absolute;
-        right: 20px;
+        position: fixed;
         bottom: 8vh;
-        padding: 8px;
-        display: flex;
         z-index: 999;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
     }
     .scaleBlock{
         padding: 10px;
@@ -615,7 +612,7 @@ background: #ffffff;}
         max-width: 100%;
         margin-right: 16px;
         margin-left: 16px;
-        top: 15%;
+        top: 20%;
         transform: translateY(-5%);
     }
     
