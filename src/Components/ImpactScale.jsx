@@ -11,7 +11,7 @@ import metric9 from "../Images/metric9.svg";
 
 function ImpactScale() {
   return (
-    <div>
+    <div className="impactdiv">
       <img className="scaleImp my-4" src={scaleOfImpact} alt="" />
 
       <div className="container">

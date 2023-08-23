@@ -161,7 +161,7 @@ body{
         right: 0;
         top: 17%;
         border: none;
-        border-left: solid 3px #0d6efd;
+        border-left: solid 4px #0d6efd;
         color: rgb(255, 255, 255);
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
@@ -296,6 +296,10 @@ to {background-position: -1000px center;}
 .blueSpec{
     position: relative;
     width: 100%;
+    background: #101D28;
+}
+.impactdiv{
+    background: #101D28;
 }
 .scaleImp{
     width: 100%;
