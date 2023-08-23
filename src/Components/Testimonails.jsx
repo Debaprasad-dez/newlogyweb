@@ -13,7 +13,7 @@ function Testimonails() {
         <div
           class="carousel-item  active"
           id="carouselImg11"
-          data-bs-interval="400000"
+          data-bs-interval="3000"
         >
           <div className="container">
             <div className="col-9 text-start p-3  testi-content">
@@ -34,14 +34,14 @@ function Testimonails() {
             </div>
           </div>
         </div>
-        <div class="carousel-item" id="carouselImg22" data-bs-interval="4000">
+        <div class="carousel-item" id="carouselImg22" data-bs-interval="3000">
           <div className="container">
             <div className="col-9 text-start p-3  testi-content">
-              <div className="d-flex justify-content-start">
+              <div className="d-md-flex justify-content-start">
                 <div className="">
                   <div className="testi-img"></div>
                 </div>
-                <div className="p-4 text-start">
+                <div className="p-4 text-start testitextresp">
                   <br />
                   <img className="quoteicon mb-2" src={quoteicon} alt="" />
                   <h2 className="fw-lighter">
@@ -54,14 +54,14 @@ function Testimonails() {
             </div>
           </div>
         </div>
-        <div class="carousel-item " id="carouselImg33" data-bs-interval="4000">
+        <div class="carousel-item " id="carouselImg33" data-bs-interval="3000">
           <div className="container">
             <div className="col-9 text-start p-3  testi-content">
-              <div className="d-flex justify-content-start">
+              <div className="d-md-flex justify-content-start">
                 <div className="">
                   <div className="testi-img"></div>
                 </div>
-                <div className="p-4 text-start">
+                <div className="p-4 text-start testitextresp">
                   <br />
                   <img className="quoteicon mb-2" src={quoteicon} alt="" />
                   <h2 className="fw-lighter">
