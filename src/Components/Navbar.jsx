@@ -6,7 +6,7 @@ function Navbar() {
     <div className="navbg fixed-top">
       <div className="navrow container">
         <div className="navblock">
-          <span className="bg-primary py-2 pe-1 rounded-pill">
+          <span className="bg-sky py-2 pe-1 rounded-pill">
             <span className="m-0  brandName px-4 py-2 rounded-pill fw-bold">
               LOGY.AI
             </span>
