@@ -6,7 +6,7 @@ function Testimonails() {
   return (
     <div
       id="carouselExampleFade"
-      class="carousel slide carousel-fade"
+      class="carousel slide carousel-slide"
       data-bs-ride="carousel"
     >
       <div class="carousel-inner" id="testimonial">

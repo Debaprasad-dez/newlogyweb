@@ -1,0 +1,32 @@
+<svg width="1315" height="1664" viewBox="0 0 1315 1664" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1314" height="1663" fill="#101D28"/>
+<rect width="1315" height="1663" fill="url(#paint0_linear_643_36)"/>
+<path d="M122 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M254.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M387.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M520.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M786.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M653.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M1052.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M1185.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M919.5 0V1663.5" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 1040L1315 1040" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 1438L1315 1438" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 1571L1315 1571" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 908L1315 908" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 1306L1315 1306" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 775L1315 775" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 1173L1315 1173" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 642L1315 642" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 376L1315 376" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 509L1315 509" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 110L1315 110" stroke="white" stroke-opacity="0.4"/>
+<path d="M0 243L1315 243" stroke="white" stroke-opacity="0.4"/>
+<defs>
+<linearGradient id="paint0_linear_643_36" x1="-2.30115e-05" y1="711.295" x2="1315" y2="711.295" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5BEBFF" stop-opacity="0.2"/>
+<stop offset="0.489583" stop-color="#5BEBFF" stop-opacity="0.05"/>
+<stop offset="1" stop-color="#5BEBFF" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
+</svg>
