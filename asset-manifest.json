@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.b54fee8e.css",
-    "main.js": "/newlogyweb/static/js/main.bb48739f.js",
+    "main.css": "/newlogyweb/static/css/main.7059a29a.css",
+    "main.js": "/newlogyweb/static/js/main.0eec5ebf.js",
     "static/js/787.9bb6201f.chunk.js": "/newlogyweb/static/js/787.9bb6201f.chunk.js",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
+    "static/media/aboutuspic1.avif": "/newlogyweb/static/media/aboutuspic1.8d094d70d9d95e85d26a.avif",
     "static/media/testimonialimg.png": "/newlogyweb/static/media/testimonialimg.4a0bbcb7015db2993cdf.png",
     "static/media/multislidebg1.png": "/newlogyweb/static/media/multislidebg1.f5ea49d4578a21678000.png",
+    "static/media/patent.png": "/newlogyweb/static/media/patent.c6733736df4dfebc82fb.png",
+    "static/media/aboutusnumbers.svg": "/newlogyweb/static/media/aboutusnumbers.eedb3af15114d3d1b16f9ffb43943377.svg",
     "static/media/metric7.svg": "/newlogyweb/static/media/metric7.d6831651f31b32fd99d40ce7481d2021.svg",
     "static/media/metric8.svg": "/newlogyweb/static/media/metric8.2aab33ee7ef574fa5abc1a9bd699593d.svg",
     "static/media/metric5.svg": "/newlogyweb/static/media/metric5.1ef8cef021c543a0032f89c09c5182aa.svg",
@@ -23,6 +26,7 @@
     "static/media/metric3.svg": "/newlogyweb/static/media/metric3.4c65d6d5c6cb0aa5e2d1a3047964b703.svg",
     "static/media/metric9.svg": "/newlogyweb/static/media/metric9.c819687f32e111da7f7994bcc024fac4.svg",
     "static/media/anibg.svg": "/newlogyweb/static/media/anibg.82bc74ccb2621779e70f.svg",
+    "static/media/LogoFree.svg": "/newlogyweb/static/media/LogoFree.d93ad88c1d9c47eb6314db38db2b7dd9.svg",
     "static/media/eyeicon.svg": "/newlogyweb/static/media/eyeicon.2440e5a2f6682e02387375cbdac3cd70.svg",
     "static/media/servicesbg.svg": "/newlogyweb/static/media/servicesbg.e278f3e0a4bbee62a420.svg",
     "static/media/oralIcon.svg": "/newlogyweb/static/media/oralIcon.0da9243bdef41d9c30c99bf133a325ea.svg",
@@ -37,12 +41,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.b54fee8e.css.map": "/newlogyweb/static/css/main.b54fee8e.css.map",
-    "main.bb48739f.js.map": "/newlogyweb/static/js/main.bb48739f.js.map",
+    "main.7059a29a.css.map": "/newlogyweb/static/css/main.7059a29a.css.map",
+    "main.0eec5ebf.js.map": "/newlogyweb/static/js/main.0eec5ebf.js.map",
     "787.9bb6201f.chunk.js.map": "/newlogyweb/static/js/787.9bb6201f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b54fee8e.css",
-    "static/js/main.bb48739f.js"
+    "static/css/main.7059a29a.css",
+    "static/js/main.0eec5ebf.js"
   ]
 }
