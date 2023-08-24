@@ -39,6 +39,24 @@ body{
 .bg-lightx{
     background: #428ccc2a;
 }
+.teamMemberDetail{
+    background: #101D28;
+    border-bottom: solid 4px #428bcc;
+}
+.teamheader{
+    background: #428bcc;
+}
+.teamheader .container{
+    background: #101D28;
+}
+.mission{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.qualitycommit{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
 .homeDiv{
     background: #181818;
     text-align: center;
@@ -180,7 +198,7 @@ body{
 }
 .aboutusnumbers{
     margin-top:60px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .aboutusparagraph{
     font-weight: 400;
@@ -194,7 +212,7 @@ body{
     line-height: 140%;
 }
 .aboutuspic1{
-    border: solid 32px #bbddfa;
+    border: solid 16px #bbddfa;
     border-style: outset;
 }
 .client-box1{
@@ -781,6 +799,10 @@ background: #ffffff;}
     }
     .aboutusparagraph2{
         width: 100% !important;
+        text-align: justify;
+    }
+    .aboutusparagraph{
+        text-align: justify;
     }
     .servingclientext{
         width: 100% !important;

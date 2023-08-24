@@ -45,6 +45,7 @@ function Footer() {
                 <img src={lin} alt="" />
                 <img src={twitter} alt="" />
               </div>
+              <br />
             </div>
             <div className="col-md-7">
               <div className="row">

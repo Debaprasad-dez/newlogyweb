@@ -2,10 +2,11 @@ import aboutusnumbers from "../Images/aboutusnumbers.svg";
 import LogoFree from "../Images/LogoFree.svg";
 import aboutuspic1 from "../Images/aboutuspic1.avif";
 import patent from "../Images/patent.png";
+import teamimg from "../Images/multislidebg1.png";
 
 function Aboutus() {
   return (
-    <div className="py-5">
+    <div className="pt-5">
       <div className="bg-grad aboutusheader text-center ">
         <h1 className="display-2 fw-bold">About Us</h1>
       </div>
@@ -39,14 +40,12 @@ function Aboutus() {
             <div className="aboutusnumbers text-start">
               <img src={aboutusnumbers} className="w-100 mx-auto" alt="" />
               <div className=" text-center mt-2">
-                <img className="w-25 mx-auto" src={LogoFree} alt="" />
+                {/* <img className="w-25 mx-auto" src={LogoFree} alt="" /> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-      <br />
-      <br />
       <div className="container mb-5">
         <div className="row">
           <div className="col-md-6">
@@ -241,6 +240,78 @@ function Aboutus() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="container qualitycommit">
+        <div className="row ">
+          <div className="col-md-6">
+            <p className="display-2 fw-bold w-75 mx-auto servingclientext">
+              Our Commitment to <span className="">Quality</span>
+            </p>
+            <hr className="w-75 mx-auto my-3 underHeaderLine" />
+          </div>
+          <div className="col-md-6"></div>
+        </div>
+      </div>
+      <div className="teamheader text-center">
+        <div className="container">
+          <p className="m-0 p-0 py-3 display-4 text-white fw-bold">The Team</p>
+        </div>
+      </div>
+      <div className="row m-0">
+        <div className="col-md-3 col-6 p-0 m-0">
+          <div className="teamcard">
+            <img src={teamimg} alt="" className="teamImage w-100" />
+            <div className="teamMemberDetail text-center text-white py-2">
+              <h5 className="p-0 m-0">Anand</h5>
+              <p className="small p-0 m-0">designation</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-6 p-0 m-0">
+          <div className="teamcard">
+            <img src={teamimg} alt="" className="teamImage w-100" />
+            <div className="teamMemberDetail bg-dark text-center text-white py-2">
+              <h5 className="p-0 m-0">Anand</h5>
+              <p className="small p-0 m-0">designation</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-6 p-0 m-0">
+          <div className="teamcard">
+            <img src={teamimg} alt="" className="teamImage w-100" />
+            <div className="teamMemberDetail text-center text-white py-2">
+              <h5 className="p-0 m-0">Anand</h5>
+              <p className="small p-0 m-0">designation</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-6 p-0 m-0">
+          <div className="teamcard">
+            <img src={teamimg} alt="" className="teamImage w-100" />
+            <div className="teamMemberDetail bg-dark text-center text-white py-2">
+              <h5 className="p-0 m-0">Anand</h5>
+              <p className="small p-0 m-0">designation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container mission ">
+        <div className="row ">
+          <div className="col-md-6">
+            <p className="display-2 fw-bold w-75 mx-auto servingclientext">
+              Our <span className="">Mission</span>
+            </p>
+            <hr className="w-75 mx-auto my-3 underHeaderLine" />
+          </div>
+          <div className="col-md-6">
+            <h4 className="aboutusparagraph">
+              Keep innovating and building clinically validated AI tools enabled
+              over smartphones, for easy screening and care coordination that
+              can be used by anyone, anywhere and anytime to touch and improve
+              the health outcomes of 100 million lives by 2030. 
+            </h4>
           </div>
         </div>
       </div>
