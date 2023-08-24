@@ -2,9 +2,9 @@ import "./App.css";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Contact from "./Components/Contact";
-import { useEffect } from "react";
+import Aboutus from "./Components/Aboutus";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<Aboutus />} />
       </Routes>
       <Footer />
     </div>

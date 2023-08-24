@@ -20,33 +20,25 @@ function Navbar() {
             <li>
               <NavLink
                 className={`${
-                  path == "/" ? "bg-lightx" : ""
+                  path === "/" ? "bg-lightx" : ""
                 } px-4 py-2 rounded-pill`}
-                href=""
+                to="/"
               >
                 Home
               </NavLink>
             </li>
             <li>
-              <a className=" px-4 py-1" href="">
-                Product
-              </a>
-            </li>
-            <li>
-              <a className=" px-4 py-1" href="">
-                Technology
-              </a>
-            </li>
-            <li>
-              <a className=" px-4 py-1" href="">
-                Service
-              </a>
-            </li>
-            <li>
-              <a className=" px-4 py-1" href="">
+              <NavLink
+                className={`${
+                  path === "/about" ? "bg-lightx" : ""
+                } px-4 py-2 rounded-pill`}
+                to="/about"
+              >
                 About us
-              </a>
+              </NavLink>
             </li>
+
+            <li></li>
           </ul>
         </div>
       </div>

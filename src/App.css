@@ -170,6 +170,134 @@ body{
         background: #bbddfa;
     }
   }
+  .bg-sky{
+    background: #bbddfa;
+    height: 16px;
+}
+  .bg-darkblue{
+    background: #101D28;
+    height: 16px;
+}
+.aboutusnumbers{
+    margin-top:60px;
+    margin-bottom: 40px;
+}
+.aboutusparagraph{
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 30px;
+    line-height: 140%;
+}
+.aboutusparagraph2{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+}
+.aboutuspic1{
+    border: solid 32px #bbddfa;
+    border-style: outset;
+}
+.client-box1{
+    width: 100%;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    border-bottom: solid 4px #101D28 !important;
+}
+.client-box2{
+    width: 100%;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    border-bottom: solid 4px #101D28 !important;
+}
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+.span {
+    float: left;
+    width: 50%;
+  }
+  .marquee--inner:hover {
+    animation-play-state: paused;
+  }
+  .marquee1 .marquee--inner {
+    display: block;
+    width: 200%;
+    position: absolute;
+    animation: marquee 12s linear infinite ;
+  }
+  .marquee2 .marquee--inner {
+    display: block;
+    width: 200%;
+    position: absolute;
+    animation: marquee 12s linear infinite reverse;
+  }
+
+  .marquee1 {
+    height: 120px;
+    width: 800px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .marquee2 {
+    height: 120px;
+    width: 800px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .clientsmq{
+    overflow: hidden;
+    padding-left: 0;
+  }
+.client-box1 img{
+    
+    align-self: center;
+}
+.client-box2 img{
+    
+    align-self: center;
+}
+.servingclientext{
+    margin-bottom: 40px;
+}
+.servingclientext span{
+    color: #428bcc;
+}
+.patentblock{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.patentcard{
+    width: 33.33%;
+    margin: 4px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 4px #101D28;
+}
+.patentimg{
+    padding: 15%;
+    background: #ffffff;
+
+}
+.patentText{
+    padding-top: 10%;
+}
+.aboutusrow{
+    margin-top: 60px;
+    height: fit-content;
+    margin-left: 0;
+    padding-left: 0;
+}
 #carouselImg1{
     width: 100vw;
     height: 95vh;
@@ -551,6 +679,10 @@ background: #ffffff;}
 .quoteicon{
     width: 60px;
 }
+.aboutusheader{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 @media screen and (max-width:600px){
     .textBox{
         z-index: 3;
@@ -640,5 +772,42 @@ background: #ffffff;}
         top: 15%;
         transform: translateY(-5%);
     }
-   
+    .aboutusrow{
+        margin-top: 20px;
+    }
+    .aboutuspic1{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .aboutusparagraph2{
+        width: 100% !important;
+    }
+    .servingclientext{
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+    .underHeaderLine{
+        margin-left: 0 !important;
+    }
+    .clientsmq{
+        margin-top: 40px;
+    }
+    .patentblock{
+        margin-top: 20px;
+    }
+    .patentcard{
+        width: 50% !important;
+        padding: 4px;
+        background: #f1f1f1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .patentimg{
+        padding: 16%;
+        background: #ffffff;
+    
+    }
+    .patentText{
+        padding-top: 10%;
+    }
 }
