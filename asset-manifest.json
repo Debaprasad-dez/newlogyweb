@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.7f74f368.css",
-    "main.js": "/newlogyweb/static/js/main.62ba6a1f.js",
+    "main.css": "/newlogyweb/static/css/main.e827ec6d.css",
+    "main.js": "/newlogyweb/static/js/main.0b187398.js",
     "static/js/787.9bb6201f.chunk.js": "/newlogyweb/static/js/787.9bb6201f.chunk.js",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
     "static/media/aboutuspic1.avif": "/newlogyweb/static/media/aboutuspic1.8d094d70d9d95e85d26a.avif",
@@ -41,12 +41,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.7f74f368.css.map": "/newlogyweb/static/css/main.7f74f368.css.map",
-    "main.62ba6a1f.js.map": "/newlogyweb/static/js/main.62ba6a1f.js.map",
+    "main.e827ec6d.css.map": "/newlogyweb/static/css/main.e827ec6d.css.map",
+    "main.0b187398.js.map": "/newlogyweb/static/js/main.0b187398.js.map",
     "787.9bb6201f.chunk.js.map": "/newlogyweb/static/js/787.9bb6201f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f74f368.css",
-    "static/js/main.62ba6a1f.js"
+    "static/css/main.e827ec6d.css",
+    "static/js/main.0b187398.js"
   ]
 }
