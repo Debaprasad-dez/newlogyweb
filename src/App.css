@@ -380,7 +380,7 @@ body{
 to {background-position: -1000px center;}
 }
 .bg-grad{
-    background: linear-gradient(-45deg, #00c3ffce, #ebf2f870, #52e5f070);
+    background: linear-gradient(-45deg, #00c3ffce, #ffffff70, #52e5f070);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     
@@ -396,19 +396,27 @@ to {background-position: -1000px center;}
 		background-position: 0% 50%;
 	}
 }
-.carText{
-    max-width: 67.8%;
+.containerx{
     top: 55%;
+    left: 50%;
     position: absolute;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    width: 80%;
+}
+.carText{
     
+    
+}
+.uptext{
+    font-weight: 600;
+    width: 80%;
 }
 .undertext{
     color: rgb(68, 68, 68);
-    margin-top: 20px;
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 32px;
     padding-right: 32px;
+    background: #ffffff9c;
 }
 .leftline{
     background: wheat;
@@ -704,20 +712,90 @@ background: #ffffff;}
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.mobile-phone {
+    padding: 10px 10px 30px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 0 0 20px #e2e2e2;
+    border-radius: 30px;
+    background: #1b1a1a;
+  }
+  .uptextmob{
+    display: none;
+}
+  .whitemovingbox{
+    width: 10%;
+    height: 4px;
+    background: linear-gradient(90deg, #BAFFBA 0%, #379dfd 100%);
+    animation:  fullwide 4s infinite
+  }
+  @keyframes fullwide {
+    0% { width: 0% }
+    100% { width: 100% }
+}
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    border-radius: 26px;
+    overflow-y: auto;
+    background-image: url(./Images/anibg.svg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animatedBackground 6s linear infinite ;
+  }
+  
+  .brove {
+    width: 100px;
+    height: 20px;
+    background: #1b1a1a;
+    position: absolute;
+    margin: 0 40px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .speaker {
+    width: 60px;
+    height: 5px;
+    background: #d2d2d2;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+  }
+  
 @media screen and (max-width:600px){
-    .textBox{
-        z-index: 3;
-        width: fit-content;
-        max-width: 100%;
-        padding: 20px;
-        font-size: 28px;
-        padding-top: 7vh;
-        padding-bottom: 7vh;
+    .containerx{
+        top: 45%;
+        left: 50%;
+        position: absolute;
+        transform: translateY(-50%) translateX(-50%);
+        width: 100%;
+    }
+    .brove{
+        display: none;
+    }
+    .mobile-phone{
+        width: 100%;
+        padding: 10px;
+        height: auto;
+        border-radius: 30px 30px 0 0 ;
+    }
+    .screen{
+        border-radius: 24px 24px 0 0 ;
+    }
+    .uptextmob{
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .uptext{
+        display: none;
     }
     .undertext{
         color: #101D28;
         font-weight: 500;
-        margin-top: 20px;
         font-size: 16px;
         padding-left: 16px;
         padding-right: 16px;
@@ -790,6 +868,7 @@ background: #ffffff;}
     .rightContact{
         margin-top: 16px;
     }
+    
     .carText{
         max-width: 100%;
         margin-right: 16px;
