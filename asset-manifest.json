@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.561a60af.css",
-    "main.js": "/newlogyweb/static/js/main.37a922b2.js",
+    "main.css": "/newlogyweb/static/css/main.7f74f368.css",
+    "main.js": "/newlogyweb/static/js/main.62ba6a1f.js",
     "static/js/787.9bb6201f.chunk.js": "/newlogyweb/static/js/787.9bb6201f.chunk.js",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
     "static/media/aboutuspic1.avif": "/newlogyweb/static/media/aboutuspic1.8d094d70d9d95e85d26a.avif",
@@ -25,7 +25,7 @@
     "static/media/metric4.svg": "/newlogyweb/static/media/metric4.b9817acedf35464c734f38273796d0fe.svg",
     "static/media/metric3.svg": "/newlogyweb/static/media/metric3.257aac519b822fb2e368e399b5d41f8f.svg",
     "static/media/metric9.svg": "/newlogyweb/static/media/metric9.b63c9567bc6e39a9a0d34c0af2269612.svg",
-    "static/media/anibg.svg": "/newlogyweb/static/media/anibg.82bc74ccb2621779e70f.svg",
+    "static/media/anibg.svg": "/newlogyweb/static/media/anibg.b04d24e11983ddfb0d84.svg",
     "static/media/LogoFree.svg": "/newlogyweb/static/media/LogoFree.d93ad88c1d9c47eb6314db38db2b7dd9.svg",
     "static/media/eyeicon.svg": "/newlogyweb/static/media/eyeicon.2440e5a2f6682e02387375cbdac3cd70.svg",
     "static/media/blueSpectrum.svg": "/newlogyweb/static/media/blueSpectrum.84304b401485cc0c465968bbe57c653a.svg",
@@ -41,12 +41,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.561a60af.css.map": "/newlogyweb/static/css/main.561a60af.css.map",
-    "main.37a922b2.js.map": "/newlogyweb/static/js/main.37a922b2.js.map",
+    "main.7f74f368.css.map": "/newlogyweb/static/css/main.7f74f368.css.map",
+    "main.62ba6a1f.js.map": "/newlogyweb/static/js/main.62ba6a1f.js.map",
     "787.9bb6201f.chunk.js.map": "/newlogyweb/static/js/787.9bb6201f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.561a60af.css",
-    "static/js/main.37a922b2.js"
+    "static/css/main.7f74f368.css",
+    "static/js/main.62ba6a1f.js"
   ]
 }
