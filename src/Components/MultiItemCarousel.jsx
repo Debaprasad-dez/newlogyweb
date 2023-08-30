@@ -28,7 +28,7 @@ function MultiItem() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner bg-white">
           <div class="carousel-item active m-0 p-0" data-bs-interval="10000">
             <div class="row m-0 p-0">
               <div class="col-sm-4 m-0 p-0">

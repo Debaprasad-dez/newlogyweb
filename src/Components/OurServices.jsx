@@ -6,14 +6,9 @@ function OurServices() {
     <div className="article text-start">
       <div className="container">
         <div className="solutiondiv">
-          <a
-            href=""
-            className="px-4 py-2 bg-lightblue  text-decoration-none rounded-pill"
-          >
-            Our Solutions
-          </a>
-          <br />
-          <br />
+          <p className="display-4 fw-bold  mx-auto servingclientext">
+            Our <span className="">Solutions</span>
+          </p>
           <div className="row solutionrow">
             <div className="col-md-7 pe-1">
               <div className="row solutiondivleft">

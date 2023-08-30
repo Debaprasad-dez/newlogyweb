@@ -11,11 +11,11 @@ import metric9 from "../Images/metric9.svg";
 
 function ImpactScale() {
   return (
-    <div className="impactdiv">
+    <div className="impactdiv bg-white">
       <img className="scaleImp my-4" src={scaleOfImpact} alt="" />
 
-      <div className="container">
-        <div className="col-10 mx-auto">
+      <div className="container mt-5">
+        <div className="col-md-9 mx-auto ">
           <div className="row">
             <div className="col-4 scaleBlock">
               <img src={metric1} alt="" />
