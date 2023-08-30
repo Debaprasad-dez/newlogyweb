@@ -767,7 +767,7 @@ background: #ffffff;}
   
 @media screen and (max-width:600px){
     .containerx{
-        top: 45%;
+        top: 55%;
         left: 50%;
         position: absolute;
         transform: translateY(-50%) translateX(-50%);

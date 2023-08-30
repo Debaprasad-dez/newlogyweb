@@ -10,7 +10,7 @@ function HomeCarousel() {
         <div
           className="carousel-item  active"
           id="carouselImg1"
-          data-bs-interval="4000000"
+          data-bs-interval="4000"
         >
           <div className="container">
             <div className="row containerx">
@@ -48,19 +48,21 @@ function HomeCarousel() {
                 <Mobilemock />
               </div>
               <div className="col-md-9 ">
-                <div className="display-5 uptext text-start  px-4 pb-4">
-                  First-Level Health Checks & Care-Coordination, Made Easy with
-                  AI
+                <div className="container pe-0">
+                  <div className="display-5 uptext text-start  px-4 pb-4">
+                    First-Level Health Checks & Care-Coordination, Made Easy
+                    with AI
+                  </div>
+                  <div className="w-100 p- bg-dark">
+                    <div className="bg-warning whitemovingbox bg-white"></div>
+                  </div>
+                  <p className="undertext text-start py-3 mb-0">
+                    Our AI-enabled digital screening front-door platform makes
+                    Care-Coordination easier for businesses and hospitals.
+                    Logy.AI tool leverages smartphones and WhatsApp to offer the
+                    first level of health check.
+                  </p>
                 </div>
-                <div className="w-100 p- bg-dark">
-                  <div className="bg-warning whitemovingbox bg-white"></div>
-                </div>
-                <p className="undertext text-start py-3 mb-0">
-                  Our AI-enabled digital screening front-door platform makes
-                  Care-Coordination easier for businesses and hospitals. Logy.AI
-                  tool leverages smartphones and WhatsApp to offer the first
-                  level of health check.
-                </p>
               </div>
             </div>
           </div>
@@ -76,19 +78,21 @@ function HomeCarousel() {
                 <Mobilemock />
               </div>
               <div className="col-md-9 ">
-                <div className="display-5 uptext text-start  px-4 pb-4">
-                  First-Level Health Checks & Care-Coordination, Made Easy with
-                  AI
+                <div className="container pe-0">
+                  <div className="display-5 uptext text-start  px-4 pb-4">
+                    First-Level Health Checks & Care-Coordination, Made Easy
+                    with AI
+                  </div>
+                  <div className="w-100 p- bg-dark">
+                    <div className="bg-warning whitemovingbox bg-white"></div>
+                  </div>
+                  <p className="undertext text-start py-3 mb-0">
+                    Our AI-enabled digital screening front-door platform makes
+                    Care-Coordination easier for businesses and hospitals.
+                    Logy.AI tool leverages smartphones and WhatsApp to offer the
+                    first level of health check.
+                  </p>
                 </div>
-                <div className="w-100 p- bg-dark">
-                  <div className="bg-warning whitemovingbox bg-white"></div>
-                </div>
-                <p className="undertext text-start py-3 mb-0">
-                  Our AI-enabled digital screening front-door platform makes
-                  Care-Coordination easier for businesses and hospitals. Logy.AI
-                  tool leverages smartphones and WhatsApp to offer the first
-                  level of health check.
-                </p>
               </div>
             </div>
           </div>
