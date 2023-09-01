@@ -403,10 +403,41 @@ to {background-position: -1000px center;}
     transform: translateY(-50%) translateX(-50%);
     width: 80%;
 }
-.carText{
-    
-    
+.notification{
+    background: #101D28;
 }
+.closebutton{
+    background: #fff;
+    z-index: 100;
+}
+.closebutton button{
+    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+}
+.newnotifybg{
+    background: #2770AE;
+    z-index: 100;
+    overflow-x:visible;
+}
+.bar {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .bar_content {
+    display: block;
+    width: 200%;
+    transform: translateX(20%); 
+    animation: move 10s linear infinite;
+    color: #ffffff77;
+  }
+  
+  @keyframes move {
+    to { transform: translateX(-50%); }
+  }
 .uptext{
     font-weight: 600;
     width: 80%;
