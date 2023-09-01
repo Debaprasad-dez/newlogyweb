@@ -740,20 +740,14 @@ background: #ffffff;}
     background: #f2f2f2;
     border-radius: 26px;
     overflow-y: auto;
+    overflow-x: hidden;
     background-image: url(./Images/anibg.svg);
     background-size: cover;
     background-repeat: repeat-x;
     animation: animatedBackground 6s linear infinite ;
   }
   
-  .brove {
-    width: 100px;
-    height: 20px;
-    background: #1b1a1a;
-    position: absolute;
-    margin: 0 40px;
-    border-radius: 0 0 20px 20px;
-  }
+
   
   .speaker {
     width: 60px;
@@ -764,17 +758,20 @@ background: #ffffff;}
     margin-top: 5px;
     border-radius: 20px;
   }
-  
+.punch-hole{
+    width: 36px;
+}
 @media screen and (max-width:600px){
     .containerx{
-        top: 55%;
+        top: 50%;
         left: 50%;
         position: absolute;
         transform: translateY(-50%) translateX(-50%);
         width: 100%;
     }
-    .brove{
-        display: none;
+    
+    .punch-hole{
+        width: 42px;
     }
     .mobile-phone{
         width: 100%;
