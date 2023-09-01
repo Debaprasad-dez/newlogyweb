@@ -429,7 +429,7 @@ to {background-position: -1000px center;}
   
   .bar_content {
     display: block;
-    width: 200%;
+    width: 400%;
     transform: translateX(20%); 
     animation: move 10s linear infinite;
     color: #ffffff77;
