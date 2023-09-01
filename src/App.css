@@ -407,14 +407,15 @@ to {background-position: -1000px center;}
     background: #101D28;
 }
 .closebutton{
-    background: #fff;
+    background: #123D62;
     z-index: 100;
 }
 .closebutton button{
     border: none;
-    background: #fff;
-    color: #000;
-    font-size: 18px;
+    background: #123D62;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
 }
 .newnotifybg{
     background: #2770AE;
@@ -429,10 +430,10 @@ to {background-position: -1000px center;}
   
   .bar_content {
     display: block;
-    width: 400%;
-    transform: translateX(20%); 
-    animation: move 10s linear infinite;
-    color: #ffffff77;
+    width: 320%;
+    transform: translateX(0%); 
+    animation: none;
+    color: #ffffffe7;
   }
   
   @keyframes move {
@@ -742,8 +743,8 @@ background: #ffffff;}
     width: 60px;
 }
 .aboutusheader{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 64px;
+    padding-bottom: 54px;
 }
 .mobile-phone {
     padding: 10px 10px 30px;
@@ -758,7 +759,7 @@ background: #ffffff;}
 }
   .whitemovingbox{
     width: 10%;
-    height: 4px;
+    height: 8px;
     background: linear-gradient(90deg, #BAFFBA 0%, #379dfd 100%);
     animation:  fullwide 4s infinite
   }
@@ -796,19 +797,30 @@ background: #ffffff;}
 }
 @media screen and (max-width:600px){
     .containerx{
-        top: 53%;
+        top: 55%;
         left: 50%;
         position: absolute;
         transform: translateY(-50%) translateX(-50%);
         width: 100%;
     }
-    
+    .notification .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bar_content {
+        display: block;
+        width: 320%;
+        transform: translateX(20%); 
+        animation: move 15s linear infinite;
+        color: #ffffffe7;
+      }
     .punch-hole{
         width: 42px;
     }
     .mobile-phone{
         width: 100%;
         padding: 10px;
+        padding-bottom: 0;
         height: auto;
         border-radius: 30px 30px 0 0 ;
     }

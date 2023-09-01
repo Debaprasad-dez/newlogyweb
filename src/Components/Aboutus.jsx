@@ -8,11 +8,29 @@ function Aboutus() {
   return (
     <div className="pt-5">
       <div className="bg-grad aboutusheader text-center ">
-        <h1 className="display-2 fw-bold">About Us</h1>
+        <h1 className="display-5 fw-normal">About Us</h1>
       </div>
       <div className="bg-sky"></div>
       <div className="bg-darkblue"></div>
       <div className="bg-sky"></div>
+      <div className="container mission ">
+        <div className="row ">
+          <div className="col-md-6">
+            <p className="display-2 fw-bold w-75 mx-auto servingclientext">
+              Our <span className="">Mission</span>
+            </p>
+            <hr className="w-75 mx-auto my-3 underHeaderLine" />
+          </div>
+          <div className="col-md-6">
+            <h4 className="aboutusparagraph">
+              Keep innovating and building clinically validated AI tools enabled
+              over smartphones, for easy screening and care coordination that
+              can be used by anyone, anywhere and anytime to touch and improve
+              the health outcomes of 100 million lives by 2030. 
+            </h4>
+          </div>
+        </div>
+      </div>
       <div className="container ps-0">
         <div className="row aboutusrow">
           <div className="col-md-6 text-center">
@@ -294,24 +312,6 @@ function Aboutus() {
               <h5 className="p-0 m-0">Anand</h5>
               <p className="small p-0 m-0">designation</p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="container mission ">
-        <div className="row ">
-          <div className="col-md-6">
-            <p className="display-2 fw-bold w-75 mx-auto servingclientext">
-              Our <span className="">Mission</span>
-            </p>
-            <hr className="w-75 mx-auto my-3 underHeaderLine" />
-          </div>
-          <div className="col-md-6">
-            <h4 className="aboutusparagraph">
-              Keep innovating and building clinically validated AI tools enabled
-              over smartphones, for easy screening and care coordination that
-              can be used by anyone, anywhere and anytime to touch and improve
-              the health outcomes of 100 million lives by 2030. 
-            </h4>
           </div>
         </div>
       </div>

@@ -52,7 +52,7 @@ function Navbar() {
       </div>
       {notistatus && (
         <div className="notification">
-          <div className="container">
+          <div className="">
             <div className="row p-0 m-0">
               <div className="col-2 newnotifybg text-center text-white">
                 <span className="">
@@ -61,7 +61,7 @@ function Navbar() {
                   </i>
                 </span>
               </div>
-              <div className="col-9 p-0 ps-2 m-0">
+              <div className="col-9 p-0 ps-4 m-0">
                 <div className="w-100 bar">
                   <span className="bar_content  p-0 m-0">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -71,7 +71,7 @@ function Navbar() {
               </div>
               <div className="col-1 closebutton text-center p-0">
                 <button onClick={closenoti}>
-                  <i className="fa-solid fa-circle-xmark"></i>
+                  <i className="fa-solid fa-xmark"></i>
                 </button>
               </div>
             </div>
