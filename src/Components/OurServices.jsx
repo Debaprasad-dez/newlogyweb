@@ -17,10 +17,11 @@ function OurServices() {
                     <div className="bg-lightblue service1">
                       <img src={eyeicon} alt="" />
                     </div>
-                    <br />
-                    <span className="btn btngrad px-4" href="">
-                      Eye Screening module
-                    </span>
+                    <div className="row">
+                      <span className="btn btngrad  mx-auto" href="">
+                        Eye Screening module
+                      </span>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -28,10 +29,11 @@ function OurServices() {
                     <div className="bg-lightblue service1">
                       <img src={oralicon} alt="" />
                     </div>
-                    <br />
-                    <a className="btn btngrad px-4" href="">
-                      Oral Screening module
-                    </a>
+                    <div className="row">
+                      <span className="btn btngrad  mx-auto" href="">
+                        Oral Screening Module
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>

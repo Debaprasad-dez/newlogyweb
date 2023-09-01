@@ -39,7 +39,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -58,7 +58,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -77,7 +77,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -100,7 +100,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -119,7 +119,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -138,7 +138,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -161,7 +161,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -180,7 +180,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
@@ -199,7 +199,7 @@ function MultiItem() {
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h4">
+                    <p class="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>

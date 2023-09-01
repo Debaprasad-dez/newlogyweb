@@ -34,12 +34,9 @@ function Recentnews() {
       <div className="container">
         <br />
         <br />
-        <a className="px-4 py-2 bg-lightblue  text-decoration-none rounded-pill">
-          Recent news
-        </a>
-        <br />
-        <br />
-        <br />
+        <p className="display-4 fw-bold  mx-auto servingclientext">
+          Recent <span className="">News</span>
+        </p>
         <div>
           <div className="row">
             {newsArray.map((news) => (

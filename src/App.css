@@ -599,8 +599,10 @@ background: linear-gradient(90deg, #0D2E4B 0%, #1F5F96 100%);
 }
 .btngrad{
     color: #0D2E4B;
-    border-radius: 12px;
-    background: linear-gradient(90deg, rgba(91, 235, 255, 0.11) 0%, rgba(39, 112, 174, 0.00) 100%) !important;
+    border-radius: 0 0 16px 16px;
+    width: 60%;
+    font-weight: 600;
+    background: #e1fdff;
 }
 
 .articledarklayer{
@@ -796,6 +798,9 @@ background: #ffffff;}
         font-size: 16px;
         padding-left: 16px;
         padding-right: 16px;
+    }
+    .tagline{
+        font-size: 20px;
     }
     .getInTouch{
         position: fixed;
