@@ -1,31 +1,36 @@
+import edexlive from "../Images/edexlive.png";
+import dainik from "../Images/dainikbhaskar.png";
+import hitavada from "../Images/hitavada.png";
+import patrika from "../Images/patrika.png";
+
 function Recentnews() {
   const newsArray = [
     {
       date: "20 Aug 2023",
       headline:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel ",
-      agency: "India times",
+      agency: edexlive,
       id: "1",
     },
     {
       date: "20 Aug 2023",
       headline:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel ",
-      agency: "India times",
+      agency: dainik,
       id: "2",
     },
     {
       date: "20 Aug 2023",
       headline:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel ",
-      agency: "India times",
+      agency: hitavada,
       id: "3",
     },
     {
       date: "20 Aug 2023",
       headline:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel ",
-      agency: "India times",
+      agency: patrika,
       id: "4",
     },
   ];
@@ -45,8 +50,9 @@ function Recentnews() {
                 <a href="" className="text-decoration-none">
                   <br />
                   <h6 className="text-dark">{news.date}</h6>
-                  <p className="text-secondary m-0">{news.headline}</p>
-                  <h5 className="text-dark">{news.agency}</h5>
+                  <p className="text-secondary m-0 mb-2">{news.headline}</p>
+                  <img className="newslogo" src={news.agency} alt="" />
+                  {/* <h5 className="text-dark">{news.agency}</h5> */}
                 </a>
               </div>
             ))}

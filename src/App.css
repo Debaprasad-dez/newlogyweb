@@ -509,7 +509,9 @@ to {background-position: -1000px center;}
 .multiItemSlider{
     min-height: 60vh;
 }
-
+.newslogo{
+    width: 100px;
+}
 .multiItemSlider .carousel-inner .card{
     height: 55vh ;
     border-radius: 0 !important;
@@ -520,7 +522,7 @@ to {background-position: -1000px center;}
     border: none;
 }
 .multiItemSlider .carousel-inner .card:hover{
-    filter: brightness(1.5);
+    filter: brightness(1.3);
 }
 .multiItemSlider .carousel-inner .card .card-body{
     padding: 10%;

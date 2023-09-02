@@ -31,7 +31,7 @@ function MultiItem() {
         <div class="carousel-inner bg-white">
           <div class="carousel-item active m-0 p-0" data-bs-interval="10000">
             <div class="row m-0 p-0">
-              <div class="col-sm-4 m-0 p-0">
+              <div class="col-sm-6 m-0 p-0">
                 <div class="card">
                   <div class="card-body">
                     <button id="btn">CASE STUDY</button>
@@ -50,7 +50,7 @@ function MultiItem() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 m-0 p-0">
+              <div class="col-sm-6 m-0 p-0">
                 <div class="card">
                   <div class="card-body">
                     <button id="btn">CASE STUDY</button>
@@ -59,8 +59,8 @@ function MultiItem() {
                     <br />
                     <br />
                     <p class="card-text w-75 h5">
-                      A hospital in Himachal Pradesh, India, was planning an eye
-                      screening ...
+                      The Community Health Center (CHC) in Madhya Pradesh, India
+                      ...
                     </p>
                     <br />
                     <a href="#" class="btn btn-primary">
@@ -69,28 +69,28 @@ function MultiItem() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
-                    <button id="btn">CASE STUDY</button>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <p class="card-text w-75 h5">
-                      A hospital in Himachal Pradesh, India, was planning an eye
-                      screening ...
-                    </p>
-                    <br />
-                    <a href="#" class="btn btn-primary">
-                      READ NOW
-                    </a>
-                  </div>
+              {/* <div class="col-sm-4 m-0 p-0">
+              <div class="card">
+                <div class="card-body">
+                  <button id="btn">CASE STUDY</button>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <p class="card-text w-75 h5">
+                    A hospital in Himachal Pradesh, India, was planning an eye
+                    screening ...
+                  </p>
+                  <br />
+                  <a href="#" class="btn btn-primary">
+                    READ NOW
+                  </a>
                 </div>
               </div>
+            </div> */}
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
+          {/* <div class="carousel-item" data-bs-interval="2000">
             <div class="row m-0 p-0">
               <div class="col-sm-4 m-0 p-0">
                 <div class="card">
@@ -150,8 +150,8 @@ function MultiItem() {
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
+          </div> */}
+          {/* <div class="carousel-item">
             <div class="row m-0 p-0">
               <div class="col-sm-4 m-0 p-0">
                 <div class="card">
@@ -211,7 +211,7 @@ function MultiItem() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

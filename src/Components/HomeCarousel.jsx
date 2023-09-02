@@ -15,7 +15,10 @@ function HomeCarousel() {
           <div className="container">
             <div className="row containerx">
               <div className="col-md-3 ">
-                <Mobilemock />
+                <Mobilemock
+                  text="First-Level Health Checks & Care-Coordination, Made Easy
+                    with AI"
+                />
               </div>
               <div className="col-md-9 ">
                 <div className="container pe-0">
@@ -45,22 +48,20 @@ function HomeCarousel() {
           <div className="container">
             <div className="row containerx">
               <div className="col-md-3 ">
-                <Mobilemock />
+                <Mobilemock text="Clinically Validated AI solutions on Your Smartphone" />
               </div>
               <div className="col-md-9 ">
                 <div className="container pe-0">
                   <div className="display-5 uptext text-start  px-4 pb-4">
-                    First-Level Health Checks & Care-Coordination, Made Easy
-                    with AI
+                    Clinically Validated AI solutions on Your Smartphone
                   </div>
                   <div className="w-100 p- bg-dark">
                     <div className="bg-warning whitemovingbox bg-white"></div>
                   </div>
                   <p className="undertext text-start py-3 mb-0">
-                    Our AI-enabled digital screening front-door platform makes
-                    Care-Coordination easier for businesses and hospitals.
-                    Logy.AI tool leverages smartphones and WhatsApp to offer the
-                    first level of health check.
+                    Our Software-As-A-Medical-Device AI tool provides solutions
+                    that are clinically validated in India and Africa. Our
+                    proprietary AI models are also patented for 90%+ accuracy.
                   </p>
                 </div>
               </div>
@@ -75,22 +76,25 @@ function HomeCarousel() {
           <div className="container">
             <div className="row containerx">
               <div className="col-md-3 ">
-                <Mobilemock />
+                <Mobilemock
+                  text="Revolutionising Healthcare with Innovative, Accessible
+                    Solutions"
+                />
               </div>
               <div className="col-md-9 ">
                 <div className="container pe-0">
                   <div className="display-5 uptext text-start  px-4 pb-4">
-                    First-Level Health Checks & Care-Coordination, Made Easy
-                    with AI
+                    Revolutionising Healthcare with Innovative, Accessible
+                    Solutions
                   </div>
                   <div className="w-100 p- bg-dark">
                     <div className="bg-warning whitemovingbox bg-white"></div>
                   </div>
                   <p className="undertext text-start py-3 mb-0">
-                    Our AI-enabled digital screening front-door platform makes
-                    Care-Coordination easier for businesses and hospitals.
-                    Logy.AI tool leverages smartphones and WhatsApp to offer the
-                    first level of health check.
+                    Our innovative solutions empower healthcare providers
+                    worldwide to improve healthcare accessibility and outcomes
+                    for their patients, driving positive impact on global
+                    health.
                   </p>
                 </div>
               </div>
