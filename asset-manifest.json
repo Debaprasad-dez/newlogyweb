@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.3e04a6e5.css",
-    "main.js": "/newlogyweb/static/js/main.3e5b25f9.js",
+    "main.css": "/newlogyweb/static/css/main.ecfd86fd.css",
+    "main.js": "/newlogyweb/static/js/main.6ed59c35.js",
     "static/js/787.307a46bc.chunk.js": "/newlogyweb/static/js/787.307a46bc.chunk.js",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
     "static/media/aboutuspic1.avif": "/newlogyweb/static/media/aboutuspic1.8d094d70d9d95e85d26a.avif",
@@ -9,11 +9,15 @@
     "static/media/multislidebg1.png": "/newlogyweb/static/media/multislidebg1.f5ea49d4578a21678000.png",
     "static/media/Cartula Health.png": "/newlogyweb/static/media/Cartula Health.7e64c31712d3a7800eec.png",
     "static/media/patent.png": "/newlogyweb/static/media/patent.c6733736df4dfebc82fb.png",
+    "static/media/edexlive.png": "/newlogyweb/static/media/edexlive.c3da54407309aa1c8488.png",
     "static/media/Apollo sugar clinic.jpg": "/newlogyweb/static/media/Apollo sugar clinic.d8f6e8edec3672c79230.jpg",
+    "static/media/dainikbhaskar.png": "/newlogyweb/static/media/dainikbhaskar.99b7a735cdd477e258df.png",
     "static/media/Dr. Agarwals.png": "/newlogyweb/static/media/Dr. Agarwals.ceb399a883d867b0b50a.png",
     "static/media/DOT.png": "/newlogyweb/static/media/DOT.aa018bd381c76a91b7b4.png",
     "static/media/K - DISC logo.png": "/newlogyweb/static/media/K - DISC logo.85f6d7e981cec7fe6510.png",
     "static/media/aboutusnumbers.svg": "/newlogyweb/static/media/aboutusnumbers.bbadaf516877b808543b4bd4eb9b71de.svg",
+    "static/media/patrika.png": "/newlogyweb/static/media/patrika.a7807017a0d8ba7c5da3.png",
+    "static/media/hitavada.png": "/newlogyweb/static/media/hitavada.ec080e829361fbdb078c.png",
     "static/media/AMTRON.webp": "/newlogyweb/static/media/AMTRON.28170850b5f8bdbc32bf.webp",
     "static/media/Colgate-Logo.png": "/newlogyweb/static/media/Colgate-Logo.24d4088a277b9c85a865.png",
     "static/media/Apollo-Clinic.png": "/newlogyweb/static/media/Apollo-Clinic.9db9fc5d8a56be7be23d.png",
@@ -54,12 +58,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.3e04a6e5.css.map": "/newlogyweb/static/css/main.3e04a6e5.css.map",
-    "main.3e5b25f9.js.map": "/newlogyweb/static/js/main.3e5b25f9.js.map",
+    "main.ecfd86fd.css.map": "/newlogyweb/static/css/main.ecfd86fd.css.map",
+    "main.6ed59c35.js.map": "/newlogyweb/static/js/main.6ed59c35.js.map",
     "787.307a46bc.chunk.js.map": "/newlogyweb/static/js/787.307a46bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e04a6e5.css",
-    "static/js/main.3e5b25f9.js"
+    "static/css/main.ecfd86fd.css",
+    "static/js/main.6ed59c35.js"
   ]
 }
