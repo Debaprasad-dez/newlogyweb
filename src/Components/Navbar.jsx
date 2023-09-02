@@ -5,7 +5,6 @@ function Navbar() {
   const path = useLocation().pathname;
   const [notistatus, setNotistatus] = useState(true);
   const closenoti = () => {
-    console.log("closed noti");
     setNotistatus(false);
   };
   return (
@@ -15,7 +14,7 @@ function Navbar() {
           <div className="navblock">
             <span className="bg-sky py-2 pe-1 rounded-pill">
               <span className="m-0  brandName px-4 py-2 rounded-pill fw-bold">
-                LOGY.AI
+                Logy.<span style={{ color: "#4097e4" }}>AI</span>
               </span>
             </span>
           </div>

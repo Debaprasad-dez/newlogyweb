@@ -217,20 +217,12 @@ body{
 }
 .client-box1{
     width: 100%;
-    height: 120px;
+    height: 200px;
     vertical-align: middle;
     text-align: center;
     display: flex;
-    border-bottom: solid 4px #101D28 !important;
 }
-.client-box2{
-    width: 100%;
-    height: 120px;
-    vertical-align: middle;
-    text-align: center;
-    display: flex;
-    border-bottom: solid 4px #101D28 !important;
-}
+
 @keyframes marquee {
   0% { left: 0; }
   100% { left: -100%; }
@@ -248,29 +240,17 @@ body{
     position: absolute;
     animation: marquee 12s linear infinite ;
   }
-  .marquee2 .marquee--inner {
-    display: block;
-    width: 200%;
-    position: absolute;
-    animation: marquee 12s linear infinite reverse;
-  }
+  
 
   .marquee1 {
-    height: 120px;
-    width: 800px;
+    height: 200px;
+    width: 100%;
     overflow: hidden;
     box-sizing: border-box;
     position: relative;
     margin-bottom: 20px;
   }
-  .marquee2 {
-    height: 120px;
-    width: 800px;
-    overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
-    margin-bottom: 20px;
-  }
+  
   .clientsmq{
     overflow: hidden;
     padding-left: 0;
@@ -279,10 +259,7 @@ body{
     
     align-self: center;
 }
-.client-box2 img{
-    
-    align-self: center;
-}
+
 .servingclientext{
     margin-bottom: 40px;
 }
@@ -295,15 +272,15 @@ body{
     flex-direction: row;
 }
 .patentcard{
-    width: 33.33%;
+    width: 100%;
     margin: 4px;
     padding: 2%;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-bottom: solid 4px #101D28;
+    animation: none !important;
 }
 .patentimg{
-    padding: 15%;
+    padding: 10%;
     background: #ffffff;
 
 }
@@ -405,6 +382,9 @@ to {background-position: -1000px center;}
 }
 .notification{
     background: #101D28;
+}
+.ytlogo{
+    width: 80px;
 }
 .closebutton{
     background: #123D62;
@@ -803,10 +783,17 @@ background: #ffffff;}
         transform: translateY(-50%) translateX(-50%);
         width: 100%;
     }
-    .notification .container{
-        padding-left: 0;
-        padding-right: 0;
-    }
+    .marquee1 {
+        height: 120px;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 20px;
+      }
+      .client-box1{
+        height: 120px;
+      }
     .bar_content {
         display: block;
         width: 320%;
@@ -949,7 +936,7 @@ background: #ffffff;}
         margin-top: 20px;
     }
     .patentcard{
-        width: 50% !important;
+        width: 100% !important;
         padding: 4px;
         background: #f1f1f1;
         margin-top: 10px;

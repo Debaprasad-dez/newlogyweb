@@ -41,7 +41,7 @@ function Footer() {
               <br />
               <div className="iconrow">
                 <img src={fb} alt="" />
-                <img src={yt} alt="" />
+                <img className="ytlogo" src={yt} alt="" />
                 <img src={lin} alt="" />
                 <img src={twitter} alt="" />
               </div>

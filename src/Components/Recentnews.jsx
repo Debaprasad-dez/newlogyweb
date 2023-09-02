@@ -44,8 +44,8 @@ function Recentnews() {
                 <div className="bg-lightblue p-1 w-25"></div>
                 <a href="" className="text-decoration-none">
                   <br />
-                  <h5 className="text-dark">{news.date}</h5>
-                  <p className="text-secondary">{news.headline}</p>
+                  <h6 className="text-dark">{news.date}</h6>
+                  <p className="text-secondary m-0">{news.headline}</p>
                   <h5 className="text-dark">{news.agency}</h5>
                 </a>
               </div>

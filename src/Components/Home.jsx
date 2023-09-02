@@ -10,6 +10,8 @@ import OurServices from "./OurServices";
 import Partners from "./Partners";
 import Recentnews from "./Recentnews";
 import Testimonails from "./Testimonails";
+import Clients from "./Clients";
+import Patents from "./Patents";
 
 function Home() {
   return (
@@ -24,7 +26,9 @@ function Home() {
       <MultiItem />
       <Article />
       <OurServices />
+      <Clients />
       <Partners />
+      <Patents />
       <Recentnews />
       <Testimonails />
     </div>
