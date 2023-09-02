@@ -11,7 +11,7 @@ function Patents() {
             </p>
           </div>
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-7 pe-4">
               <div className="patentcard bg-grad">
                 <div className="patentimg">
                   <img src={patent} className="w-50" alt="" />

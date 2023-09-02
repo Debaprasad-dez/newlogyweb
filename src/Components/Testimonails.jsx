@@ -35,7 +35,8 @@ function Testimonails() {
                     <br />
                     <img className="quoteicon mb-2" src={quoteicon} alt="" />
                     <h2 className="fw-lighter">
-                      hfkudhvdhvkdjnvkjdjnzv ashvdhvuk
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      In animi architecto enim reprehenderit quasi rem.
                     </h2>
                     <h3 className="mb-1">Firstname surname</h3>
                     <h4 className="p-0 m-0 fw-normal">Designation</h4>
@@ -55,7 +56,8 @@ function Testimonails() {
                     <br />
                     <img className="quoteicon mb-2" src={quoteicon} alt="" />
                     <h2 className="fw-lighter">
-                      hfkudhvdhvkdjnvkjdjnzv ashvdhvuk
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      In animi architecto enim reprehenderit quasi rem.
                     </h2>
                     <h3 className="mb-1">Firstname surname</h3>
                     <h4 className="p-0 m-0 fw-normal">Designation</h4>
@@ -79,10 +81,11 @@ function Testimonails() {
                     <br />
                     <img className="quoteicon mb-2" src={quoteicon} alt="" />
                     <h2 className="fw-lighter">
-                      hfkudhvdhvkdjnvkjdjnzv ashvdhvuk
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      In animi architecto enim reprehenderit quasi rem.
                     </h2>
-                    <h3 className="mb-1">Firstname surname</h3>
-                    <h4 className="p-0 m-0 fw-normal">Designation</h4>
+                    <h4 className="mb-1">Firstname surname</h4>
+                    <h5 className="p-0 m-0 fw-normal">Designation</h5>
                   </div>
                 </div>
               </div>

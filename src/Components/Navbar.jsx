@@ -7,6 +7,13 @@ function Navbar() {
   const closenoti = () => {
     setNotistatus(false);
   };
+  const [toggleSideMenu, setToggleSideMenu] = useState(false);
+  const togglesidemenu = () => {
+    setToggleSideMenu(!toggleSideMenu);
+  };
+  const closesidemenu = () => {
+    setToggleSideMenu(false);
+  };
   return (
     <div className="fixed-top">
       <div className="navbg ">
@@ -19,7 +26,10 @@ function Navbar() {
             </span>
           </div>
           <div className="navblock2 text-end">
-            <button className="togglebutton rounded-pill">
+            <button
+              className="togglebutton rounded-pill"
+              onClick={togglesidemenu}
+            >
               <i className="fa-solid fa-bars"></i>
             </button>
             <ul>
@@ -75,6 +85,43 @@ function Navbar() {
               </div>
             </div>
           </div>
+        </div>
+      )}
+      {toggleSideMenu && (
+        <div className="bg-white mobile-menu  text-white">
+          <ul>
+            <li className={`${path === "/" ? "bg-lightx" : ""}  ps-3 py-4 `}>
+              <NavLink
+                onClick={closesidemenu}
+                className="sidemenuoptions"
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li
+              className={`${path === "/about" ? "bg-lightx" : ""}  ps-3 py-4`}
+            >
+              <NavLink
+                onClick={closesidemenu}
+                className="sidemenuoptions"
+                to="/about"
+              >
+                About us
+              </NavLink>
+            </li>
+            <li
+              className={`${path === "/other" ? "bg-lightx" : ""}  ps-3 py-4`}
+            >
+              <NavLink
+                onClick={closesidemenu}
+                className="sidemenuoptions"
+                to="/other"
+              >
+                Other
+              </NavLink>
+            </li>
+          </ul>
         </div>
       )}
     </div>
