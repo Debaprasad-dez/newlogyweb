@@ -3,15 +3,15 @@ function MultiItem() {
     <div className="multiItemSlider">
       <div
         id="carouselExampleDark"
-        class="carousel carousel-dark slide"
+        className="carousel carousel-dark slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators" id="carInd">
+        <div className="carousel-indicators" id="carInd">
           <button
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -28,61 +28,64 @@ function MultiItem() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner bg-white">
-          <div class="carousel-item active m-0 p-0" data-bs-interval="10000">
-            <div class="row m-0 p-0">
-              <div class="col-sm-6 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+        <div className="carousel-inner bg-white">
+          <div
+            className="carousel-item active m-0 p-0"
+            data-bs-interval="10000"
+          >
+            <div className="row m-0 p-0">
+              <div className="col-sm-6 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+              <div className="col-sm-6 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       The Community Health Center (CHC) in Madhya Pradesh, India
                       ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>
                 </div>
               </div>
-              {/* <div class="col-sm-4 m-0 p-0">
-              <div class="card">
-                <div class="card-body">
+              {/* <div className="col-sm-4 m-0 p-0">
+              <div className="card">
+                <div className="card-body">
                   <button id="btn">CASE STUDY</button>
                   <br />
                   <br />
                   <br />
                   <br />
-                  <p class="card-text w-75 h5">
+                  <p className="card-text w-75 h5">
                     A hospital in Himachal Pradesh, India, was planning an eye
                     screening ...
                   </p>
                   <br />
-                  <a href="#" class="btn btn-primary">
+                  <a href="#" className="btn btn-primary">
                     READ NOW
                   </a>
                 </div>
@@ -90,60 +93,60 @@ function MultiItem() {
             </div> */}
             </div>
           </div>
-          {/* <div class="carousel-item" data-bs-interval="2000">
-            <div class="row m-0 p-0">
-              <div class="col-sm-4 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+          {/* <div className="carousel-item" data-bs-interval="2000">
+            <div className="row m-0 p-0">
+              <div className="col-sm-4 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+              <div className="col-sm-4 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+              <div className="col-sm-4 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>
@@ -151,60 +154,60 @@ function MultiItem() {
               </div>
             </div>
           </div> */}
-          {/* <div class="carousel-item">
-            <div class="row m-0 p-0">
-              <div class="col-sm-4 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+          {/* <div className="carousel-item">
+            <div className="row m-0 p-0">
+              <div className="col-sm-4 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+              <div className="col-sm-4 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 m-0 p-0">
-                <div class="card">
-                  <div class="card-body">
+              <div className="col-sm-4 m-0 p-0">
+                <div className="card">
+                  <div className="card-body">
                     <button id="btn">CASE STUDY</button>
                     <br />
                     <br />
                     <br />
                     <br />
-                    <p class="card-text w-75 h5">
+                    <p className="card-text w-75 h5">
                       A hospital in Himachal Pradesh, India, was planning an eye
                       screening ...
                     </p>
                     <br />
-                    <a href="#" class="btn btn-primary">
+                    <a href="#" className="btn btn-primary">
                       READ NOW
                     </a>
                   </div>

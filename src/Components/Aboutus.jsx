@@ -3,6 +3,7 @@ import LogoFree from "../Images/LogoFree.svg";
 import aboutuspic1 from "../Images/aboutuspic1.avif";
 import patent from "../Images/patent.png";
 import teamimg from "../Images/multislidebg1.png";
+import teamimg1 from "../Images/empidimg.png";
 
 function Aboutus() {
   return (
@@ -115,6 +116,56 @@ function Aboutus() {
             <div className="teamMemberDetail bg-dark text-center text-white py-2">
               <h5 className="p-0 m-0">Anand</h5>
               <p className="small p-0 m-0">designation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="container my-3">
+        <div className="row m-0">
+          <div className="col-md-2 col-6 p-0 m-0 mx-auto">
+            <div className="teamcard">
+              <img src={teamimg1} alt="" className="teamImage-sm w-100 p-3" />
+              <div className="teamMemberDetail1 text-center text-dark py-2">
+                <h5 className="p-0 m-0">Anand</h5>
+                <p className="small p-0 m-0">designation</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-2 col-6 p-0 m-0 mx-auto">
+            <div className="teamcard">
+              <img src={teamimg1} alt="" className="teamImage-sm w-100 p-3" />
+              <div className="teamMemberDetail1 text-dark text-center  py-2">
+                <h5 className="p-0 m-0">Anand</h5>
+                <p className="small p-0 m-0">designation</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-2 col-6 p-0 m-0 mx-auto">
+            <div className="teamcard">
+              <img src={teamimg1} alt="" className="teamImage-sm w-100 p-3" />
+              <div className="teamMemberDetail1 text-center text-dark py-2">
+                <h5 className="p-0 m-0">Anand</h5>
+                <p className="small p-0 m-0">designation</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-2 col-6 p-0 m-0 mx-auto">
+            <div className="teamcard">
+              <img src={teamimg1} alt="" className="teamImage-sm w-100 p-3" />
+              <div className="teamMemberDetail1  text-center text-dark py-2">
+                <h5 className="p-0 m-0">Anand</h5>
+                <p className="small p-0 m-0">designation</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-2 col-6 p-0 m-0 mx-auto">
+            <div className="teamcard">
+              <img src={teamimg1} alt="" className="teamImage-sm w-100 p-3" />
+              <div className="teamMemberDetail1  text-center text-dark py-2">
+                <h5 className="p-0 m-0">Anand</h5>
+                <p className="small p-0 m-0">designation</p>
+              </div>
             </div>
           </div>
         </div>

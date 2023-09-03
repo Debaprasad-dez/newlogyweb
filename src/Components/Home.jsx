@@ -21,7 +21,7 @@ function Home() {
       <Tagline text="let good health begin" />
       <img src={blueSpectrum} className="blueSpec bg-white" alt="" />
       <ImpactScale />
-      <Infinitecarousel />
+      {/* <Infinitecarousel /> */}
       <Tagline text="Mission to improve the health outcomes of 100 million lives by 2030." />
       <MultiItem />
       <Article />

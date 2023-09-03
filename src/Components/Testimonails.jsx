@@ -16,12 +16,12 @@ function Testimonails() {
       </div>
       <div
         id="carouselExampleFade"
-        class="carousel slide carousel-slide"
+        className="carousel slide carousel-slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner" id="testimonial">
+        <div className="carousel-inner" id="testimonial">
           <div
-            class="carousel-item  active"
+            className="carousel-item  active"
             id="carouselImg11"
             data-bs-interval="3000"
           >
@@ -45,7 +45,11 @@ function Testimonails() {
               </div>
             </div>
           </div>
-          <div class="carousel-item" id="carouselImg22" data-bs-interval="3000">
+          <div
+            className="carousel-item"
+            id="carouselImg22"
+            data-bs-interval="3000"
+          >
             <div className="container">
               <div className="col-9 text-start p-3  testi-content">
                 <div className="d-md-flex justify-content-start">
@@ -67,7 +71,7 @@ function Testimonails() {
             </div>
           </div>
           <div
-            class="carousel-item "
+            className="carousel-item "
             id="carouselImg33"
             data-bs-interval="3000"
           >
@@ -93,22 +97,22 @@ function Testimonails() {
           </div>
         </div>
         <button
-          class="directionguiderleft"
+          className="directionguiderleft"
           type="button"
           data-bs-target="#carouselExampleFade"
           data-bs-slide="prev"
         >
           <img src={leftgo} alt="" />
-          <span class="visually-hidden">Previous</span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="directionguiderright"
+          className="directionguiderright"
           type="button"
           data-bs-target="#carouselExampleFade"
           data-bs-slide="next"
         >
           <img src={rightgo} alt="" />
-          <span class="visually-hidden">Next</span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>

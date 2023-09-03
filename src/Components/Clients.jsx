@@ -23,8 +23,8 @@ function Clients() {
             </p>
           </div>
           <div className=" clientsmq ">
-            <div class="marquee1">
-              <div class="marquee--inner">
+            <div className="marquee1">
+              <div className="marquee--inner">
                 <div className="span">
                   <div className="row m-0 p-0">
                     <div className="col p-0">

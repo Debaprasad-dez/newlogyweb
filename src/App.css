@@ -51,6 +51,10 @@ body{
     background: #101D28;
     border-bottom: solid 4px #428bcc;
 }
+.teamImage-sm{
+    border-radius: 100%;
+    filter: grayscale(1);
+}
 .teamheader{
     background: #428bcc;
 }
@@ -466,7 +470,10 @@ to {background-position: -1000px center;}
       }
 }
 .tagline{
-    background: white;
+    background: #0D2E4B;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
     padding: 4px;
     margin-bottom: 0;
 }
@@ -729,6 +736,15 @@ background: #ffffff;}
     border: 16px solid #F6F7FE;
     border-radius: 10%;
 }
+.testitextresp h2{
+    font-size: 24px;
+}
+.testitextresp h3{
+    font-size: 28px;
+}
+.testitextresp h4{
+    font-size: 20px;
+}
 .quoteicon{
     width: 60px;
 }
@@ -788,6 +804,8 @@ background: #ffffff;}
 .mobile-menu{
     display: none;
 }
+
+
 @media screen and (max-width:600px){
     .containerx{
         top: 55%;
@@ -843,11 +861,16 @@ background: #ffffff;}
         font-size: 16px;
     }
     .testitextresp h3{
-        font-size: 24px;
-    }
-    .testitextresp h4{
         font-size: 20px;
     }
+    .testitextresp h4{
+        font-size: 16px;
+    }
+    .quoteicon{
+        width: 40px;
+        
+    }
+    
     .mobile-phone{
         width: 100%;
         padding: 10px;

@@ -5,8 +5,8 @@ import oralicon from "../Images/oralIcon.svg";
 function Mobilemock(props) {
   return (
     <div className="container pe-0">
-      <div class="mobile-phone">
-        <div class="screen text-white">
+      <div className="mobile-phone">
+        <div className="screen text-white">
           <div className="row">
             <img src={Punchcam} className="punch-hole mx-auto mt-2" alt="" />
           </div>

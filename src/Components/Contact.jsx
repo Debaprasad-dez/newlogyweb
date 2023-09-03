@@ -30,18 +30,18 @@ function Contact() {
                 </button>
                 <div className="p-3 ">
                   <form>
-                    <div class="form-group">
+                    <div className="form-group">
                       <label for="formGroupExampleInput" className="my-2">
                         Your Full Name
                       </label>
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="formGroupExampleInput"
                         placeholder="e.g. Vish Anand"
                       />
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                       <div className="row">
                         <div className="col">
                           <label for="formGroupExampleInput2" className="my-2">
@@ -49,7 +49,7 @@ function Contact() {
                           </label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="formGroupExampleInput2"
                             placeholder="e.g. 9876543210"
                           />
@@ -60,7 +60,7 @@ function Contact() {
                           </label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="formGroupExampleInput3"
                             placeholder="e.g. vish.anand@yahoo.com"
                           />
@@ -73,7 +73,7 @@ function Contact() {
                       </label>
                       <textarea
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="formGroupExampleInput3"
                         placeholder="Write your heart out"
                       ></textarea>

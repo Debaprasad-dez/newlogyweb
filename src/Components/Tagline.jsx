@@ -1,6 +1,6 @@
 function Tagline(props) {
   return (
-    <div>
+    <div className="">
       <p className="tagline">{props.text}</p>
     </div>
   );
