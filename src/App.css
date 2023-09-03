@@ -840,7 +840,13 @@ background: #ffffff;}
         width: 42px;
     }
     .testitextresp h2{
+        font-size: 16px;
+    }
+    .testitextresp h3{
         font-size: 24px;
+    }
+    .testitextresp h4{
+        font-size: 20px;
     }
     .mobile-phone{
         width: 100%;
