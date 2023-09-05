@@ -8,13 +8,13 @@ function Contact() {
             <div className="pe-2 h-100 norightpadding">
               <div className="leftContact text-center p-4 py-0">
                 <div className="bg-white py-5 shadow w-75 mx-auto mt-n3 touchbox">
-                  <img src={getintouch} className="w-50 ms-2" srcset="" />
+                  <img src={getintouch} className="w-50 ms-2" srcSet="" />
                 </div>
                 <br />
-                <p className="w-50 mx-auto mt-3 h5 fw-500">
+                {/* <p className="w-50 mx-auto mt-3 h5 fw-500">
                   Great! Please get in touch with us
-                </p>
-                <p className="w-75 mx-auto mt-3 h6 fw-normal">
+                </p> */}
+                <p className="w-75 mx-auto mt-3 h4 fw-normal">
                   let's start something wonderful together. Call us with any
                   questions.
                 </p>
@@ -31,7 +31,7 @@ function Contact() {
                 <div className="p-3 ">
                   <form>
                     <div className="form-group">
-                      <label for="formGroupExampleInput" className="my-2">
+                      <label htmlFor="formGroupExampleInput" className="my-2">
                         Your Full Name
                       </label>
                       <input
@@ -44,7 +44,10 @@ function Contact() {
                     <div className="form-group">
                       <div className="row">
                         <div className="col">
-                          <label for="formGroupExampleInput2" className="my-2">
+                          <label
+                            htmlFor="formGroupExampleInput2"
+                            className="my-2"
+                          >
                             Your Mobile Number
                           </label>
                           <input
@@ -55,7 +58,10 @@ function Contact() {
                           />
                         </div>
                         <div className="col">
-                          <label for="formGroupExampleInput3" className="my-2">
+                          <label
+                            htmlFor="formGroupExampleInput3"
+                            className="my-2"
+                          >
                             Your Email address
                           </label>
                           <input
@@ -68,7 +74,7 @@ function Contact() {
                       </div>
                     </div>
                     <div className="form-group">
-                      <label for="formGroupExampleInput3" className="my-2">
+                      <label htmlFor="formGroupExampleInput3" className="my-2">
                         Your Message to us
                       </label>
                       <textarea

@@ -1,6 +1,7 @@
 import aboutusnumbers from "../Images/aboutusnumbers.svg";
 import LogoFree from "../Images/LogoFree.svg";
 import aboutuspic1 from "../Images/aboutuspic1.avif";
+import bluebg from "../Images/bluebg.jpg";
 import patent from "../Images/patent.png";
 import teamimg from "../Images/multislidebg1.png";
 import teamimg1 from "../Images/empidimg.png";
@@ -35,8 +36,9 @@ function Aboutus() {
       <div className="container ps-0">
         <div className="row aboutusrow">
           <div className="col-md-6 text-center">
-            <div className=" ">
-              <img src={aboutuspic1} className="w-75 aboutuspic1" alt="" />
+            <div className="logobox">
+              <img src={LogoFree} className="logoabout" alt="" />
+              <img src={bluebg} className="w-75 aboutuspic1" alt="" />
             </div>
           </div>
           <div className="col-md-6">

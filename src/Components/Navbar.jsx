@@ -19,11 +19,16 @@ function Navbar() {
       <div className="navbg ">
         <div className="navrow container">
           <div className="navblock">
-            <span className="bg-sky py-2 pe-1 rounded-pill">
-              <span className="m-0  brandName px-4 py-2 rounded-pill fw-bold">
-                Logy.<span style={{ color: "#4097e4" }}>AI</span>
+            <NavLink className="notextdeco" to="/">
+              <span className="bg-sky py-2 pe-1 rounded-pill">
+                <span
+                  style={{ color: "#ffffff" }}
+                  className="m-0  brandName px-4 py-2 rounded-pill fw-bold"
+                >
+                  Logy.<span style={{ color: "#4097e4" }}>AI</span>
+                </span>
               </span>
-            </span>
+            </NavLink>
           </div>
           <div className="navblock2 text-end">
             <button
@@ -53,8 +58,16 @@ function Navbar() {
                   About us
                 </NavLink>
               </li>
-
-              <li></li>
+              <li>
+                <NavLink
+                  className={`${
+                    path === "/products" ? "bg-lightx" : ""
+                  } px-4 py-2 rounded-pill`}
+                  to="/products"
+                >
+                  Products
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
@@ -116,9 +129,9 @@ function Navbar() {
               <NavLink
                 onClick={closesidemenu}
                 className="sidemenuoptions"
-                to="/other"
+                to="/products"
               >
-                Other
+                Products
               </NavLink>
             </li>
           </ul>
