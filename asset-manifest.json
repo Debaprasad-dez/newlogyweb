@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.99006914.css",
-    "main.js": "/newlogyweb/static/js/main.5ed7f9e2.js",
+    "main.css": "/newlogyweb/static/css/main.a9c5efe6.css",
+    "main.js": "/newlogyweb/static/js/main.243c82af.js",
     "static/js/787.307a46bc.chunk.js": "/newlogyweb/static/js/787.307a46bc.chunk.js",
     "static/media/empidimg.png": "/newlogyweb/static/media/empidimg.c100894681af59f66e7e.png",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
@@ -19,6 +19,7 @@
     "static/media/aboutusnumbers.svg": "/newlogyweb/static/media/aboutusnumbers.bbadaf516877b808543b4bd4eb9b71de.svg",
     "static/media/patrika.png": "/newlogyweb/static/media/patrika.a7807017a0d8ba7c5da3.png",
     "static/media/hitavada.png": "/newlogyweb/static/media/hitavada.ec080e829361fbdb078c.png",
+    "static/media/bluebg.jpg": "/newlogyweb/static/media/bluebg.a0afced79248bd5b5089.jpg",
     "static/media/AMTRON.webp": "/newlogyweb/static/media/AMTRON.28170850b5f8bdbc32bf.webp",
     "static/media/Colgate-Logo.png": "/newlogyweb/static/media/Colgate-Logo.24d4088a277b9c85a865.png",
     "static/media/Apollo-Clinic.png": "/newlogyweb/static/media/Apollo-Clinic.9db9fc5d8a56be7be23d.png",
@@ -42,7 +43,7 @@
     "static/media/metric3.svg": "/newlogyweb/static/media/metric3.257aac519b822fb2e368e399b5d41f8f.svg",
     "static/media/metric9.svg": "/newlogyweb/static/media/metric9.b63c9567bc6e39a9a0d34c0af2269612.svg",
     "static/media/anibg.svg": "/newlogyweb/static/media/anibg.b04d24e11983ddfb0d84.svg",
-    "static/media/LogoFree.svg": "/newlogyweb/static/media/LogoFree.d93ad88c1d9c47eb6314db38db2b7dd9.svg",
+    "static/media/LogoFree.svg": "/newlogyweb/static/media/LogoFree.7bb56abc5199856dd6d55c6e2c03d383.svg",
     "static/media/Pristyn Care.webp": "/newlogyweb/static/media/Pristyn Care.de4c891fec3c98d6acf6.webp",
     "static/media/eyeicon.svg": "/newlogyweb/static/media/eyeicon.2440e5a2f6682e02387375cbdac3cd70.svg",
     "static/media/blueSpectrum.svg": "/newlogyweb/static/media/blueSpectrum.84304b401485cc0c465968bbe57c653a.svg",
@@ -59,12 +60,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.99006914.css.map": "/newlogyweb/static/css/main.99006914.css.map",
-    "main.5ed7f9e2.js.map": "/newlogyweb/static/js/main.5ed7f9e2.js.map",
+    "main.a9c5efe6.css.map": "/newlogyweb/static/css/main.a9c5efe6.css.map",
+    "main.243c82af.js.map": "/newlogyweb/static/js/main.243c82af.js.map",
     "787.307a46bc.chunk.js.map": "/newlogyweb/static/js/787.307a46bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99006914.css",
-    "static/js/main.5ed7f9e2.js"
+    "static/css/main.a9c5efe6.css",
+    "static/js/main.243c82af.js"
   ]
 }
