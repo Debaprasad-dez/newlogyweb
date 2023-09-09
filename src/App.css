@@ -553,11 +553,12 @@ to {background-position: -1000px center;}
 .multiItemSlider .carousel-inner .card{
     height: 55vh ;
     border-radius: 0 !important;
+    background: url(./Images/multislidebg1.png);
     text-align: left;
     background-size: cover;
     background-position: center;
-    background: url(./Images/multislidebg1.png);
     border: none;
+    
 }
 .multiItemSlider .carousel-inner .card:hover{
     filter: brightness(1.3);
@@ -1020,7 +1021,7 @@ background: #ffffff;}
         height: 80vh;
     }
     .multiItemSlider .carousel-inner .card{
-        height: 55vh;
+        height: 50vh;
     }
     .contactDiv{
         padding-top: 100px;
