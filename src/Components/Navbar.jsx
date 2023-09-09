@@ -86,8 +86,8 @@ function Navbar() {
               <div className="col-9 p-0 ps-4 m-0">
                 <div className="w-100 bar">
                   <span className="bar_content  p-0 m-0">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Qui, ullam.
+                    🔥🔥 Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Qui, ullam. 🔥🔥
                   </span>
                 </div>
               </div>
