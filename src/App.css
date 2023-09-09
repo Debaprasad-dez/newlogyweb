@@ -497,10 +497,16 @@ to {background-position: -1000px center;}
 .blueSpec{
     position: relative;
     width: 100%;
-    background: #101D28;
 }
 .impactdiv{
-    background: #101D28;
+    /* background: #101D28; */
+}
+.bg-video{
+    background-image: url(./Images/vidbg.gif);
+    background-size: cover;
+}
+.bg-video-screen{
+    background: linear-gradient(180deg, #FFF 0%, #FFF 25%, rgba(255, 255, 255, 0.70) 50%, #FFF 75%, #FFF 100%);
 }
 .scaleImp{
     width: 100%;

@@ -30,10 +30,10 @@ function ProductDisplay() {
                 </span>
               </div>
               <div className="p-3">
-                <div className="mt-3 bg-productFeatureBlue w-50 ">
-                  <span>
+                <div className="mt-3 bg-productFeatureBlue ">
+                  <h3 className="p-0 m-0">
                     <i class="fa-solid fa-star fa-beat-fade me-2"></i> Features
-                  </span>
+                  </h3>
                 </div>
               </div>
               <div className="pageFeatures m-3 py-3 ps-3">
@@ -72,10 +72,10 @@ function ProductDisplay() {
                 </span>
               </div>
               <div className="p-3">
-                <div className="mt-3 bg-productFeatureBlue w-50 ">
-                  <span>
+                <div className="mt-3 bg-productFeatureBlue  ">
+                  <h3 className="p-0 m-0">
                     <i class="fa-solid fa-star fa-beat-fade me-2"></i> Features
-                  </span>
+                  </h3>
                 </div>
               </div>
               <div className="pageFeatures m-3 py-3 ps-3">

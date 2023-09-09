@@ -19,8 +19,12 @@ function Home() {
       <HomeCarousel />
       <GetTouchFloater />
       <Tagline text="let good health begin" />
-      <img src={blueSpectrum} className="blueSpec bg-white" alt="" />
-      <ImpactScale />
+      <div className="bg-video">
+        <div className="bg-video-screen">
+          <img src={blueSpectrum} className="blueSpec " alt="" />
+          <ImpactScale />
+        </div>
+      </div>
       {/* <Infinitecarousel /> */}
       <Tagline text="Mission to improve the health outcomes of 100 million lives by 2030." />
       <MultiItem />

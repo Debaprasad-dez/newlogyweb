@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import eyeicon from "../Images/eyeicon.svg";
 import oralicon from "../Images/oralIcon.svg";
 
@@ -17,7 +18,7 @@ function OurServices() {
                     <div className="bg-lightblue service1">
                       <img src={eyeicon} alt="" />
                     </div>
-                    <div className="row">
+                    <div className="row px-4">
                       <span className="btn btngrad  mx-auto" href="">
                         Eye Screening module
                       </span>
@@ -29,7 +30,7 @@ function OurServices() {
                     <div className="bg-lightblue service1">
                       <img src={oralicon} alt="" />
                     </div>
-                    <div className="row">
+                    <div className="row px-4">
                       <span className="btn btngrad  mx-auto" href="">
                         Oral Screening Module
                       </span>
@@ -48,9 +49,9 @@ function OurServices() {
                     with a current focus on eye and oral diseases.
                   </p>
                   <br />
-                  <a href="" className="btn px-4">
+                  <Link to="/products" className="btn px-4">
                     LEARN MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -6,11 +6,13 @@ import { Routes, Route } from "react-router-dom";
 import Contact from "./Components/Contact";
 import Aboutus from "./Components/Aboutus";
 import Products from "./Components/Products";
+import ScrollToTop from "./functionalities/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
