@@ -76,7 +76,7 @@ function Footer() {
                   <h5 className="text-white">CONTACT</h5>
                   <br />
                   <a href="" className="text-decoration-none  mb-3">
-                    India / Singapore
+                    India / USA
                   </a>
                   <a href="" className="text-decoration-none  mb-3">
                     humans@logy.ai

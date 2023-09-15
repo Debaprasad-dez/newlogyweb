@@ -902,15 +902,23 @@ background: #ffffff;}
     }
     
     .marquee1 {
-        height: 120px;
-        width: 100%;
+        height: 200px;
+        width: 150%;
         overflow: hidden;
         box-sizing: border-box;
         position: relative;
         margin-bottom: 20px;
       }
+      @keyframes marquee {
+        0% { left: 0; }
+        100% { left: -240%; }
+      }
+      .marquee1 .marquee--inner{
+        width: 300%;
+        animation: marquee 18s linear infinite ;
+      }
       .client-box1{
-        height: 120px;
+        height: 200px;
       }
     .bar_content {
         display: block;

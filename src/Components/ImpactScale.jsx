@@ -17,9 +17,9 @@ function ImpactScale() {
       <div className="container mt-5">
         <div className="col-md-9 mx-auto ">
           <div className="row">
-            <div className="col-4 scaleBlock">
+            {/* <div className="col-4 scaleBlock">
               <img src={metric1} alt="" />
-            </div>
+            </div> */}
             <div className="col-4 scaleBlock">
               <img src={metric2} alt="" />
             </div>
@@ -29,9 +29,9 @@ function ImpactScale() {
             <div className="col-4 scaleBlock">
               <img src={metric4} alt="" />
             </div>
-            <div className="col-4 scaleBlock">
+            {/* <div className="col-4 scaleBlock">
               <img src={metric5} alt="" />
-            </div>
+            </div> */}
             <div className="col-4 scaleBlock">
               <img src={metric6} alt="" />
             </div>
@@ -41,9 +41,9 @@ function ImpactScale() {
             <div className="col-4 scaleBlock">
               <img src={metric8} alt="" />
             </div>
-            <div className="col-4 scaleBlock">
+            {/* <div className="col-4 scaleBlock">
               <img src={metric9} alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

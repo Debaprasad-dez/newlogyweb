@@ -18,7 +18,7 @@ function Home() {
     <div className="homeDiv">
       <HomeCarousel />
       <GetTouchFloater />
-      <Tagline text="let good health begin" />
+      <Tagline text="LET GOOD HEALTH BEGIN" />
       <div className="bg-video">
         <div className="bg-video-screen">
           <img src={blueSpectrum} className="blueSpec " alt="" />
@@ -31,7 +31,7 @@ function Home() {
       <Article />
       <OurServices />
       <Clients />
-      <Partners />
+      {/* <Partners /> */}
       <Patents />
       <Recentnews />
       <Testimonails />

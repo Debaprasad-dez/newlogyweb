@@ -40,7 +40,7 @@ function Recentnews() {
         <br />
         <br />
         <p className="display-4 fw-bold  mx-auto servingclientext">
-          Recent <span className="">News</span>
+          Covered <span className="">By</span>
         </p>
         <div>
           <div className="row">

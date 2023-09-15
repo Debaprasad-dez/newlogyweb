@@ -124,7 +124,9 @@ function Navbar() {
               </NavLink>
             </li>
             <li
-              className={`${path === "/other" ? "bg-lightx" : ""}  ps-3 py-4`}
+              className={`${
+                path === "/products" ? "bg-lightx" : ""
+              }  ps-3 py-4`}
             >
               <NavLink
                 onClick={closesidemenu}
