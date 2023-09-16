@@ -25,6 +25,7 @@ function Home() {
           <ImpactScale />
         </div>
       </div>
+      <Patents />
       {/* <Infinitecarousel /> */}
       <Tagline text="Mission to improve the health outcomes of 100 million lives by 2030." />
       <MultiItem />
@@ -32,7 +33,6 @@ function Home() {
       <OurServices />
       <Clients />
       {/* <Partners /> */}
-      <Patents />
       <Recentnews />
       <Testimonails />
     </div>

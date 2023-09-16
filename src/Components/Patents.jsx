@@ -2,7 +2,7 @@ import patent from "../Images/patent.png";
 
 function Patents() {
   return (
-    <div className="bg-white pt-4">
+    <div className="bg-white pt-4 pb-5">
       <div className="container">
         <div className=" ">
           <div className="text-start">
@@ -21,12 +21,14 @@ function Patents() {
             <div className="col-md-5">
               <div className="solutionright text-start">
                 <div className="px-5">
-                  <p className="display-5">Patent name</p>
+                  <p className="display-6 patentText">
+                    SYSTEM FOR ORAL SCREENING AND ANNOTATING DENTAL IMAGES USING
+                    MACHINE LEARNING
+                  </p>
                   <p className="">
-                    Our company offers a cutting-edge solution in the form of a
-                    Software as a Medical Device (SAMD) AI tool that enables
-                    healthcare providers to rapidly assess various conditions,
-                    with a current focus on eye and oral diseases.
+                    <b>
+                      ISO 9001 <span className="fa-star2">CERTIFIED</span>
+                    </b>
                   </p>
                   <br />
                   <a href="" className="btn px-4">

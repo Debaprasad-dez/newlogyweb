@@ -251,10 +251,20 @@ body{
     text-align: center;
     display: flex;
 }
+.articleBottomBox{
+    background: #428ccc13;
+}
+.articleImg{
+    border: solid 8px #428bcc;
+}
 
+.articleTopBox{
+    height: 200px;
+    width: 100%;
+}
 @keyframes marquee {
-  0% { left: 0; }
-  100% { left: -100%; }
+  0% { left: 10%; }
+  100% { left: -110%; }
 }
 .span {
     float: left;
@@ -310,7 +320,8 @@ body{
 }
 .patentimg{
     padding: 10%;
-    background: #ffffff;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #dbf7ff 0%, #dbf0fd 8%, #dde7fd 30%, #d2fcfa 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #dcf4fc 0%, #d7eefc 8%, #dce5fc 25%, #cafffc 62.5%, transparent 100%);
+
 
 }
 .patentText{
@@ -728,6 +739,12 @@ color: white;
 .fa-star{
     color: gold;
 }
+.fa-star2{
+    color: rgb(255, 166, 0);
+}
+.patentText{
+    font-size: 32px;
+}
 .solutiondivleft a{
     border-radius: 8px;
 background: #123D62;
@@ -910,7 +927,7 @@ background: #ffffff;}
         margin-bottom: 20px;
       }
       @keyframes marquee {
-        0% { left: 0; }
+        0% { left: 10%; }
         100% { left: -240%; }
       }
       .marquee1 .marquee--inner{
@@ -994,7 +1011,7 @@ background: #ffffff;}
         margin-top: 10px;
     }
     .solutionright .px-5{
-        margin-top: 18px;
+        margin-top: 12px;
         padding: 0 !important;
         width: 97%;
         font-size: 18px;
@@ -1078,16 +1095,16 @@ background: #ffffff;}
     .patentcard{
         width: 100% !important;
         padding: 4px;
-        background: #f1f1f1;
+        background: none;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .patentimg{
-        padding: 16%;
-        background: #ffffff;
+        padding: 16%;  
+        background: radial-gradient(ellipse farthest-corner at right bottom, #dbf7ff 0%, #dbf0fd 8%, #dde7fd 30%, #d2fcfa 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #dcf4fc 0%, #d7eefc 8%, #dce5fc 25%, #cafffc 62.5%, transparent 100%);
     
     }
     .patentText{
-        padding-top: 10%;
+        padding-top: 1%;
     }
 }

@@ -7,6 +7,7 @@ import Contact from "./Components/Contact";
 import Aboutus from "./Components/Aboutus";
 import Products from "./Components/Products";
 import ScrollToTop from "./functionalities/ScrollToTop";
+import ArticlesPage from "./Components/ArticlesPage/ArticlesPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<Aboutus />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/articles" element={<ArticlesPage />} />
       </Routes>
       <Footer />
     </div>

@@ -68,6 +68,16 @@ function Navbar() {
                   Products
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  className={`${
+                    path === "/articles" ? "bg-lightx" : ""
+                  } px-4 py-2 rounded-pill`}
+                  to="/articles"
+                >
+                  Articles
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
@@ -134,6 +144,19 @@ function Navbar() {
                 to="/products"
               >
                 Products
+              </NavLink>
+            </li>
+            <li
+              className={`${
+                path === "/articles" ? "bg-lightx" : ""
+              }  ps-3 py-4`}
+            >
+              <NavLink
+                onClick={closesidemenu}
+                className="sidemenuoptions"
+                to="/articles"
+              >
+                Articles
               </NavLink>
             </li>
           </ul>
