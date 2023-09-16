@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.02f094a0.css",
-    "main.js": "/newlogyweb/static/js/main.0abba0bd.js",
+    "main.css": "/newlogyweb/static/css/main.ea1821f9.css",
+    "main.js": "/newlogyweb/static/js/main.6b0b7a58.js",
     "static/js/787.307a46bc.chunk.js": "/newlogyweb/static/js/787.307a46bc.chunk.js",
     "static/media/vidbg.gif": "/newlogyweb/static/media/vidbg.8a3a3f1da5bad6f07328.gif",
     "static/media/empidimg.png": "/newlogyweb/static/media/empidimg.c100894681af59f66e7e.png",
@@ -9,8 +9,10 @@
     "static/media/aboutuspic1.avif": "/newlogyweb/static/media/aboutuspic1.8d094d70d9d95e85d26a.avif",
     "static/media/testimonialimg.png": "/newlogyweb/static/media/testimonialimg.4a0bbcb7015db2993cdf.png",
     "static/media/multislidebg1.png": "/newlogyweb/static/media/multislidebg1.f5ea49d4578a21678000.png",
+    "static/media/article1.png": "/newlogyweb/static/media/article1.1f5a0da14e71042d7ffc.png",
     "static/media/Cartula Health.png": "/newlogyweb/static/media/Cartula Health.7e64c31712d3a7800eec.png",
-    "static/media/patent.png": "/newlogyweb/static/media/patent.c6733736df4dfebc82fb.png",
+    "static/media/patent.png": "/newlogyweb/static/media/patent.9d8000429086c4225dd3.png",
+    "static/media/article2.png": "/newlogyweb/static/media/article2.0fa765416b445dcb7f7f.png",
     "static/media/edexlive.png": "/newlogyweb/static/media/edexlive.c3da54407309aa1c8488.png",
     "static/media/Apollo sugar clinic.jpg": "/newlogyweb/static/media/Apollo sugar clinic.d8f6e8edec3672c79230.jpg",
     "static/media/dainikbhaskar.png": "/newlogyweb/static/media/dainikbhaskar.99b7a735cdd477e258df.png",
@@ -61,12 +63,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.02f094a0.css.map": "/newlogyweb/static/css/main.02f094a0.css.map",
-    "main.0abba0bd.js.map": "/newlogyweb/static/js/main.0abba0bd.js.map",
+    "main.ea1821f9.css.map": "/newlogyweb/static/css/main.ea1821f9.css.map",
+    "main.6b0b7a58.js.map": "/newlogyweb/static/js/main.6b0b7a58.js.map",
     "787.307a46bc.chunk.js.map": "/newlogyweb/static/js/787.307a46bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02f094a0.css",
-    "static/js/main.0abba0bd.js"
+    "static/css/main.ea1821f9.css",
+    "static/js/main.6b0b7a58.js"
   ]
 }
