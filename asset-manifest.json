@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.ea1821f9.css",
-    "main.js": "/newlogyweb/static/js/main.6b0b7a58.js",
+    "main.css": "/newlogyweb/static/css/main.5c72caf0.css",
+    "main.js": "/newlogyweb/static/js/main.460522a1.js",
     "static/js/787.307a46bc.chunk.js": "/newlogyweb/static/js/787.307a46bc.chunk.js",
     "static/media/vidbg.gif": "/newlogyweb/static/media/vidbg.8a3a3f1da5bad6f07328.gif",
+    "static/media/mplier.png": "/newlogyweb/static/media/mplier.31d5307bee106876a082.png",
     "static/media/empidimg.png": "/newlogyweb/static/media/empidimg.c100894681af59f66e7e.png",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
     "static/media/aboutuspic1.avif": "/newlogyweb/static/media/aboutuspic1.8d094d70d9d95e85d26a.avif",
@@ -26,6 +27,7 @@
     "static/media/AMTRON.webp": "/newlogyweb/static/media/AMTRON.28170850b5f8bdbc32bf.webp",
     "static/media/Colgate-Logo.png": "/newlogyweb/static/media/Colgate-Logo.24d4088a277b9c85a865.png",
     "static/media/Apollo-Clinic.png": "/newlogyweb/static/media/Apollo-Clinic.9db9fc5d8a56be7be23d.png",
+    "static/media/anp.svg": "/newlogyweb/static/media/anp.20c05ed9b9e02a2f362f0479956f6fda.svg",
     "static/media/metric8.svg": "/newlogyweb/static/media/metric8.5c70233c49bd3d262cb83a94e38a30e2.svg",
     "static/media/metric7.svg": "/newlogyweb/static/media/metric7.1b4411f55997339ec18c278a263a9ccd.svg",
     "static/media/metric5.svg": "/newlogyweb/static/media/metric5.cbe1a29888673790d316c488a680009e.svg",
@@ -39,12 +41,14 @@
     "static/media/metric1.svg": "/newlogyweb/static/media/metric1.32ce3d2ba01dc34461de05e30c6c7e95.svg",
     "static/media/getintouch.svg": "/newlogyweb/static/media/getintouch.ec2f546d4498e15192df8b33bb7710e5.svg",
     "static/media/metric6.svg": "/newlogyweb/static/media/metric6.f4b17ae4eb4c31a8f0c144f6ff3f30d0.svg",
+    "static/media/ourp.svg": "/newlogyweb/static/media/ourp.b17291befddf54d749f8d7b9d350d15a.svg",
     "static/media/scaleOfImpact.svg": "/newlogyweb/static/media/scaleOfImpact.cbea0cde2c2cbfa73cd43711bb614330.svg",
     "static/media/metric2.svg": "/newlogyweb/static/media/metric2.17ec27a61e5d25e26fab1b5b46c7629a.svg",
     "static/media/metric4.svg": "/newlogyweb/static/media/metric4.b9817acedf35464c734f38273796d0fe.svg",
     "static/media/Apollo Dental.webp": "/newlogyweb/static/media/Apollo Dental.74ca33de1694956edf5d.webp",
     "static/media/metric3.svg": "/newlogyweb/static/media/metric3.257aac519b822fb2e368e399b5d41f8f.svg",
     "static/media/metric9.svg": "/newlogyweb/static/media/metric9.b63c9567bc6e39a9a0d34c0af2269612.svg",
+    "static/media/aboutus.svg": "/newlogyweb/static/media/aboutus.eb949d3dcc0f757fc413f72bb27e20bb.svg",
     "static/media/anibg.svg": "/newlogyweb/static/media/anibg.b04d24e11983ddfb0d84.svg",
     "static/media/LogoFree.svg": "/newlogyweb/static/media/LogoFree.7bb56abc5199856dd6d55c6e2c03d383.svg",
     "static/media/Pristyn Care.webp": "/newlogyweb/static/media/Pristyn Care.de4c891fec3c98d6acf6.webp",
@@ -63,12 +67,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.ea1821f9.css.map": "/newlogyweb/static/css/main.ea1821f9.css.map",
-    "main.6b0b7a58.js.map": "/newlogyweb/static/js/main.6b0b7a58.js.map",
+    "main.5c72caf0.css.map": "/newlogyweb/static/css/main.5c72caf0.css.map",
+    "main.460522a1.js.map": "/newlogyweb/static/js/main.460522a1.js.map",
     "787.307a46bc.chunk.js.map": "/newlogyweb/static/js/787.307a46bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea1821f9.css",
-    "static/js/main.6b0b7a58.js"
+    "static/css/main.5c72caf0.css",
+    "static/js/main.460522a1.js"
   ]
 }
