@@ -831,8 +831,11 @@ background: #ffffff;}
     width: 60px;
 }
 .aboutusheader{
-    padding-top: 64px;
-    padding-bottom: 54px;
+    padding-top: 128px;
+    /* padding-bottom: 54px; */
+}
+.aboutusheader img{
+    width: 50%;
 }
 .mobile-phone {
     padding: 10px 10px 30px;
@@ -889,6 +892,17 @@ background: #ffffff;}
 
 
 @media screen and (max-width:600px){
+    .aboutusheader{
+        padding-top: 104px;
+        /* padding-bottom: 54px; */
+    }
+    .aboutusheader img{
+        width: 80%;
+    }
+    .mission {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
     .containerx{
         top: 55%;
         left: 50%;
@@ -1078,10 +1092,29 @@ background: #ffffff;}
     }
     .aboutusparagraph{
         text-align: justify;
+        margin-bottom: 0;
+        margin-top: 18px;
+        font-size: 18px;
+    }
+    .aboutusnumbers {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+    .qualitycommit {
+        margin-top: 0px;
+        margin-bottom: 36px;
     }
     .servingclientext{
         width: 100% !important;
         margin-bottom: 40px;
+    }
+    .servingclientext2{
+        width: 100% !important;
+        margin-bottom: 36px;
+        margin-top: 36px;
+    }
+    .mplier{
+        width: 100% !important;
     }
     .underHeaderLine{
         margin-left: 0 !important;

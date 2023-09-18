@@ -18,7 +18,7 @@ function ProductDisplay() {
             </div>
           </div>
         </div>
-        <div className=" pe-1">
+        <div className="col-md-8 mx-auto pe-1">
           <div className="row solutiondivleft m-0">
             <div className="col-md-6 ps-0">
               <div className="p-3">

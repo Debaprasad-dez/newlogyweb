@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import articlestar from "../Images/articlestar.svg";
 function Article() {
   return (
@@ -12,9 +13,9 @@ function Article() {
             <div className="col-md-7 pe-2">
               <div className="articlebg">
                 <div className="articledarklayer">
-                  <a className="btn px-5" href="">
+                  <Link to="/articles" className="btn px-5" href="">
                     see all
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -23,14 +24,17 @@ function Article() {
                 <div className="text-end">
                   <img src={articlestar} alt="" />
                   <div className="p-5 pt-0 text-start">
-                    <p>LOREM IPSUM</p>
+                    <p>edexlive.com</p>
                     <h5>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Teeth talk: This Hyderabad start-up is using AI and
+                      WhatsApp to bring oral hygiene to the fore
                     </h5>
-                    <h6>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maxime mollitia, molestiae quas vel{" "}
-                    </h6>
+                    <p>
+                      Logy.AI is a start-up that is using the power of WhatsApp
+                      and Artificial Intelligence to step up oral hygiene
+                      efforts. We get a demo to understand how exactly it works
+                      and we are thrilled indeed.
+                    </p>
                     <br />
                     <a href="" className="btn px-4">
                       LEARN MORE

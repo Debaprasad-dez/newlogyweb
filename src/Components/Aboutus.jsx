@@ -5,12 +5,14 @@ import bluebg from "../Images/bluebg.jpg";
 import patent from "../Images/patent.png";
 import teamimg from "../Images/multislidebg1.png";
 import teamimg1 from "../Images/empidimg.png";
+import aboutus from "../Images/aboutus.svg";
+import mplier from "../Images/mplier.png";
 
 function Aboutus() {
   return (
     <div className="pt-5">
       <div className="bg-grad aboutusheader text-center ">
-        <h1 className="display-5 fw-normal">About Us</h1>
+        <img src={aboutus} alt="" />
       </div>
       <div className="bg-sky"></div>
       <div className="bg-darkblue"></div>
@@ -43,12 +45,14 @@ function Aboutus() {
           </div>
           <div className="col-md-6">
             <h4 className="aboutusparagraph">
-              With its AI-powered healthcare screening tools, Logy.AI is one of
-              the pioneers in the <b>Software as a medical device (SAMD)</b>{" "}
-              domain and is truly a story of made in India for the world. Rooted
-              in three fundamental principles of empathy, honesty, and ethics,
-              Logy.AI envisions a future where accessible healthcare is
-              available to all, facilitated by its remarkable AI tools. 
+              <b>
+                With its AI-powered healthcare screening tools, Logy.AI is one
+                of the pioneers in the Software as a medical device (SAMD)
+                domain and is truly a story of made in India for the world.
+                Rooted in three fundamental principles of empathy, honesty, and
+                ethics, Logy.AI envisions a future where accessible healthcare
+                is available to all, facilitated by its remarkable AI tools.
+              </b>
             </h4>
             <h4 className="aboutusparagraph2 w-75">
               Leveraging advanced technology, Logy.AI's tools possess the
@@ -60,9 +64,6 @@ function Aboutus() {
             </h4>
             <div className="aboutusnumbers text-start">
               <img src={aboutusnumbers} className="w-100 mx-auto" alt="" />
-              <div className=" text-center mt-2">
-                {/* <img className="w-25 mx-auto" src={LogoFree} alt="" /> */}
-              </div>
             </div>
           </div>
         </div>
@@ -76,7 +77,32 @@ function Aboutus() {
             </p>
             <hr className="w-75 mx-auto my-3 underHeaderLine" />
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <h4 className="aboutusparagraph">
+              Keep innovating and building clinically validated AI tools enabled
+              over smartphones, for easy screening and care coordination that
+              can be used by anyone, anywhere and anytime to touch and improve
+              the health outcomes of 100 million lives by 2030. 
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div className="container qualitycommit">
+        <div className="row ">
+          <div className="col-md-6">
+            <p className="display-2 fw-bold w-75 mx-auto servingclientext">
+              Key <span className="">Investors</span>
+            </p>
+            <hr className="w-75 mx-auto my-3 underHeaderLine" />
+            <h4 className="aboutusparagraph w-75 mx-auto servingclientext2">
+              Our investors who have put their faith in us in the journey.
+            </h4>
+          </div>
+          <div className="col-md-6">
+            <div className="row">
+              <img src={mplier} className="w-75 mx-auto mplier" alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="teamheader text-center">

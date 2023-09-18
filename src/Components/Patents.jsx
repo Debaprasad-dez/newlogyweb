@@ -25,11 +25,11 @@ function Patents() {
                     SYSTEM FOR ORAL SCREENING AND ANNOTATING DENTAL IMAGES USING
                     MACHINE LEARNING
                   </p>
-                  <p className="">
+                  {/* <p className="">
                     <b>
                       ISO 9001 <span className="fa-star2">CERTIFIED</span>
                     </b>
-                  </p>
+                  </p> */}
                   <br />
                   <a href="" className="btn px-4">
                     LEARN MORE
