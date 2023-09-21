@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/newlogyweb/static/css/main.5c72caf0.css",
-    "main.js": "/newlogyweb/static/js/main.460522a1.js",
+    "main.css": "/newlogyweb/static/css/main.42e7c0bd.css",
+    "main.js": "/newlogyweb/static/js/main.e064bb9b.js",
     "static/js/787.307a46bc.chunk.js": "/newlogyweb/static/js/787.307a46bc.chunk.js",
     "static/media/vidbg.gif": "/newlogyweb/static/media/vidbg.8a3a3f1da5bad6f07328.gif",
     "static/media/mplier.png": "/newlogyweb/static/media/mplier.31d5307bee106876a082.png",
+    "static/media/Nivedita Tiwari.png": "/newlogyweb/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
+    "static/media/Vinay Khobragade.png": "/newlogyweb/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
+    "static/media/Anand Panchbhai.png": "/newlogyweb/static/media/Anand Panchbhai.a0f38d38e5024ec1e4c8.png",
     "static/media/empidimg.png": "/newlogyweb/static/media/empidimg.c100894681af59f66e7e.png",
     "static/media/articlebg.png": "/newlogyweb/static/media/articlebg.9f25503ec12b4deb278d.png",
-    "static/media/aboutuspic1.avif": "/newlogyweb/static/media/aboutuspic1.8d094d70d9d95e85d26a.avif",
+    "static/media/Priyanjit Ghosh.png": "/newlogyweb/static/media/Priyanjit Ghosh.b2fbdc467e606cea2568.png",
     "static/media/testimonialimg.png": "/newlogyweb/static/media/testimonialimg.4a0bbcb7015db2993cdf.png",
     "static/media/multislidebg1.png": "/newlogyweb/static/media/multislidebg1.f5ea49d4578a21678000.png",
     "static/media/article1.png": "/newlogyweb/static/media/article1.1f5a0da14e71042d7ffc.png",
@@ -67,12 +70,12 @@
     "static/media/rightgo.svg": "/newlogyweb/static/media/rightgo.b01c2739aa5fdea224918cc533106c0d.svg",
     "static/media/reqdemoicon.svg": "/newlogyweb/static/media/reqdemoicon.1faedd7a00f8876e1a08616ff0831f03.svg",
     "static/media/fbicon.svg": "/newlogyweb/static/media/fbicon.28af87e70f854abb73e6686febfb0029.svg",
-    "main.5c72caf0.css.map": "/newlogyweb/static/css/main.5c72caf0.css.map",
-    "main.460522a1.js.map": "/newlogyweb/static/js/main.460522a1.js.map",
+    "main.42e7c0bd.css.map": "/newlogyweb/static/css/main.42e7c0bd.css.map",
+    "main.e064bb9b.js.map": "/newlogyweb/static/js/main.e064bb9b.js.map",
     "787.307a46bc.chunk.js.map": "/newlogyweb/static/js/787.307a46bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c72caf0.css",
-    "static/js/main.460522a1.js"
+    "static/css/main.42e7c0bd.css",
+    "static/js/main.e064bb9b.js"
   ]
 }
