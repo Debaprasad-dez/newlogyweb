@@ -1,12 +1,14 @@
 import aboutusnumbers from "../Images/aboutusnumbers.svg";
 import LogoFree from "../Images/LogoFree.svg";
-import aboutuspic1 from "../Images/aboutuspic1.avif";
 import bluebg from "../Images/bluebg.jpg";
-import patent from "../Images/patent.png";
 import teamimg from "../Images/multislidebg1.png";
 import teamimg1 from "../Images/empidimg.png";
 import aboutus from "../Images/aboutus.svg";
 import mplier from "../Images/mplier.png";
+import priyanjit from "../Images/Priyanjit Ghosh.png";
+import anand from "../Images/Anand Panchbhai.png";
+import vinay from "../Images/Vinay Khobragade.png";
+import nivedita from "../Images/Nivedita Tiwari.png";
 
 function Aboutus() {
   return (
@@ -54,7 +56,7 @@ function Aboutus() {
                 is available to all, facilitated by its remarkable AI tools.
               </b>
             </h4>
-            <h4 className="aboutusparagraph2 w-75">
+            <h4 className="aboutusparagraph2 ">
               Leveraging advanced technology, Logy.AI's tools possess the
               capability to diagnose diseases, forecast outcomes, and empower
               patients to receive prompt and efficient treatment. By adopting
@@ -79,10 +81,7 @@ function Aboutus() {
           </div>
           <div className="col-md-6">
             <h4 className="aboutusparagraph">
-              Keep innovating and building clinically validated AI tools enabled
-              over smartphones, for easy screening and care coordination that
-              can be used by anyone, anywhere and anytime to touch and improve
-              the health outcomes of 100 million lives by 2030. 
+              -- content needed for this part  --
             </h4>
           </div>
         </div>
@@ -113,16 +112,16 @@ function Aboutus() {
       <div className="row m-0">
         <div className="col-md-3 col-6 p-0 m-0">
           <div className="teamcard">
-            <img src={teamimg} alt="" className="teamImage w-100" />
+            <img src={priyanjit} alt="" className="teamImage w-100" />
             <div className="teamMemberDetail text-center text-white py-2">
-              <h5 className="p-0 m-0">Anand</h5>
+              <h5 className="p-0 m-0">Priyanjit</h5>
               <p className="small p-0 m-0">designation</p>
             </div>
           </div>
         </div>
         <div className="col-md-3 col-6 p-0 m-0">
           <div className="teamcard">
-            <img src={teamimg} alt="" className="teamImage w-100" />
+            <img src={anand} alt="" className="teamImage w-100" />
             <div className="teamMemberDetail bg-dark text-center text-white py-2">
               <h5 className="p-0 m-0">Anand</h5>
               <p className="small p-0 m-0">designation</p>
@@ -131,18 +130,18 @@ function Aboutus() {
         </div>
         <div className="col-md-3 col-6 p-0 m-0">
           <div className="teamcard">
-            <img src={teamimg} alt="" className="teamImage w-100" />
+            <img src={vinay} alt="" className="teamImage w-100" />
             <div className="teamMemberDetail text-center text-white py-2">
-              <h5 className="p-0 m-0">Anand</h5>
+              <h5 className="p-0 m-0">Vinay</h5>
               <p className="small p-0 m-0">designation</p>
             </div>
           </div>
         </div>
         <div className="col-md-3 col-6 p-0 m-0">
           <div className="teamcard">
-            <img src={teamimg} alt="" className="teamImage w-100" />
+            <img src={nivedita} alt="" className="teamImage w-100" />
             <div className="teamMemberDetail bg-dark text-center text-white py-2">
-              <h5 className="p-0 m-0">Anand</h5>
+              <h5 className="p-0 m-0">Nivedita</h5>
               <p className="small p-0 m-0">designation</p>
             </div>
           </div>

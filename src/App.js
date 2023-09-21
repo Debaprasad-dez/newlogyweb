@@ -8,6 +8,7 @@ import Aboutus from "./Components/Aboutus";
 import Products from "./Components/Products";
 import ScrollToTop from "./functionalities/ScrollToTop";
 import ArticlesPage from "./Components/ArticlesPage/ArticlesPage";
+import KenyaCase from "./Components/caseStudies/KenyaCase";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<Aboutus />} />
         <Route path="/products" element={<Products />} />
         <Route path="/articles" element={<ArticlesPage />} />
+        <Route path="/kenya" element={<KenyaCase />} />
       </Routes>
       <Footer />
     </div>

@@ -559,7 +559,7 @@ to {background-position: -1000px center;}
     min-height: 60vh;
 }
 .newslogo{
-    width: 100px;
+    width: 140px;
 }
 .multiItemSlider .carousel-inner .card{
     height: 55vh ;
@@ -973,6 +973,11 @@ background: #ffffff;}
     .quoteicon{
         width: 40px;
         
+    }
+    .pageFeatures{
+        background: #1f5e960e;
+        border-left: solid 4px #101D28;
+        font-size: 18px;
     }
     
     .mobile-phone{

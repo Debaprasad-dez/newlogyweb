@@ -18,7 +18,11 @@ function Articles() {
           <div className="col-md-8 mx-auto">
             <div className="row mx-auto mb-4">
               <div className="col-md-6 mb-3">
-                <a href="" className="text-decoration-none">
+                <a
+                  href="https://www.edexlive.com/happening/2020/dec/14/teeth-talk-this-hyderabad-start-up-is-using-ai-and-whatsapp-to-bring-oral-hygiene-to-the-fore-16582.html"
+                  target="#"
+                  className="text-decoration-none"
+                >
                   <img src={article1} className="w-100 articleImg" alt="" />
                   <div className="articleBottomBox py-3 px-2">
                     <p className="mb-0 text-secondary ">edexlive.com</p>
@@ -30,7 +34,11 @@ function Articles() {
                 </a>
               </div>
               <div className="col-md-6 mb-3">
-                <a href="" className="text-decoration-none">
+                <a
+                  href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
+                  target="#"
+                  className="text-decoration-none"
+                >
                   <img src={article2} className="w-100 articleImg" alt="" />
                   <div className="articleBottomBox py-3 px-2">
                     <p className="mb-0 text-secondary">cmp.smu.edu.sg</p>

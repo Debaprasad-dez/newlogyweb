@@ -36,7 +36,11 @@ function Article() {
                       and we are thrilled indeed.
                     </p>
                     <br />
-                    <a href="" className="btn px-4">
+                    <a
+                      href="https://www.edexlive.com/happening/2020/dec/14/teeth-talk-this-hyderabad-start-up-is-using-ai-and-whatsapp-to-bring-oral-hygiene-to-the-fore-16582.html"
+                      target="#"
+                      className="btn px-4"
+                    >
                       LEARN MORE
                     </a>
                   </div>

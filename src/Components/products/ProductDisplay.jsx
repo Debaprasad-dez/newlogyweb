@@ -21,7 +21,7 @@ function ProductDisplay() {
         <div className="col-md-8 mx-auto pe-1">
           <div className="row solutiondivleft m-0">
             <div className="col-md-6 ps-0">
-              <div className="p-3">
+              <div className="p-3 pb-0">
                 <div className=" service2">
                   <img src={eyeicon} className="eye-oral-icon-page" alt="" />
                 </div>
@@ -36,21 +36,21 @@ function ProductDisplay() {
                   </h3>
                 </div>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque, minus rerum. Ipsam.
                 </span>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>Lorem ipsum dolor sit.</span>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 </span>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
                   impedit aliquid maiores temporibus fugit officiis.
@@ -63,7 +63,7 @@ function ProductDisplay() {
               </div>
             </div>
             <div className="col-md-6 ps-0">
-              <div className="p-3">
+              <div className="p-3 pb-0">
                 <div className=" service2">
                   <img src={oralicon} className="eye-oral-icon-page" alt="" />
                 </div>
@@ -78,21 +78,21 @@ function ProductDisplay() {
                   </h3>
                 </div>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque, minus rerum. Ipsam.
                 </span>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>Lorem ipsum dolor sit.</span>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 </span>
               </div>
-              <div className="pageFeatures m-3 py-3 ps-3">
+              <div className="pageFeatures m-2 py-3 ps-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
                   impedit aliquid maiores temporibus fugit officiis.
