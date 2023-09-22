@@ -976,8 +976,9 @@ background: #ffffff;}
     }
     .pageFeatures{
         background: #1f5e960e;
-        border-left: solid 4px #101D28;
-        font-size: 18px;
+        border-left: solid 2px #101D28;
+        border-right: solid 2px #101D28;
+        font-size: 14px;
     }
     
     .mobile-phone{

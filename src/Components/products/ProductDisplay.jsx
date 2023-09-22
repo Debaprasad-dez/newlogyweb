@@ -30,34 +30,34 @@ function ProductDisplay() {
                 </span>
               </div>
               <div className="p-3">
-                <div className="mt-3  ">
+                <div className="mt-3 text-center ">
                   <h3 className="p-0 m-0">
-                    <i class="fa-solid fa-star fa-beat-fade me-2"></i> Features
+                    <i class="fa-solid fa-star fa-beat-fade "></i> Features
                   </h3>
                 </div>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 p-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque, minus rerum. Ipsam.
                 </span>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 p-3">
                 <span>Lorem ipsum dolor sit.</span>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 p-3">
                 <span>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 </span>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 mb-0 p-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
                   impedit aliquid maiores temporibus fugit officiis.
                 </span>
               </div>
-              <div className="p-3">
-                <a href="" className="btn px-4">
+              <div className="m-2 mt-0 bg-dark p-3 text-center">
+                <a href="" className="btn px-5">
                   Explore
                 </a>
               </div>
@@ -72,34 +72,34 @@ function ProductDisplay() {
                 </span>
               </div>
               <div className="p-3">
-                <div className="mt-3">
+                <div className="mt-3 text-center">
                   <h3 className="p-0 m-0">
-                    <i class="fa-solid fa-star fa-beat-fade me-2"></i> Features
+                    <i class="fa-solid fa-star fa-beat-fade "></i> Features
                   </h3>
                 </div>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 p-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque, minus rerum. Ipsam.
                 </span>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 p-3">
                 <span>Lorem ipsum dolor sit.</span>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 p-3">
                 <span>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 </span>
               </div>
-              <div className="pageFeatures m-2 py-3 ps-3">
+              <div className="pageFeatures m-2 mb-0 p-3">
                 <span>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
                   impedit aliquid maiores temporibus fugit officiis.
                 </span>
               </div>
-              <div className="p-3">
-                <a href="" className="btn px-4">
+              <div className="m-2 mt-0 bg-dark p-3 text-center">
+                <a href="" className="btn px-5">
                   Explore
                 </a>
               </div>
